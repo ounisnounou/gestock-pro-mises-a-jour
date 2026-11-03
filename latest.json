@@ -1,9 +1,9 @@
 {
-  "version": "1.9.2",
-  "fichier": "Gestock-Pro-Setup-1.9.2.exe",
-  "taille": 85071617,
-  "sha256": "57bc480bedabffc6493a569f2604385026c8049185875b104732a45c83fa42db",
+  "version": "1.10.0",
+  "fichier": "Gestock-Pro-Setup-1.10.0.exe",
+  "taille": 85100388,
+  "sha256": "781dc74b85cf6946437556d3ba66485a6be52cf06703d69e9e7f6040f40bd865",
   "date": "2026-11-03",
-  "notes": "Point de vente adapté aux petits écrans (1366×768) : tous les boutons visibles sans défiler.",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.9.2.exe"
+  "notes": "Nouveau point de vente inspiré de ZIN : total en grand, favoris compacts + Récents, ventes en attente colorées, rangée de paiement, raccourcis, mode Plein écran.",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.10.0.exe"
 }
