@@ -1,0 +1,11 @@
+name: Android
+on:
+  push:
+    branches: [android]
+permissions:
+  contents: write
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo ok && java -version && ls $ANDROID_HOME
