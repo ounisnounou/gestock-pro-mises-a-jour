@@ -1,10 +1,10 @@
 {
-  "version": "1.1.1",
-  "code": 3,
-  "fichier": "Gestock-Pro-Android-1.1.1.apk",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Android-1.1.1.apk",
-  "sha256": "eaff58d015a60794a02633050f7f48d22f9753b1f70e8a8da6575ebcff16f808",
-  "taille": 13581211,
-  "notes": "Heure, batterie et réseau lisibles en haut de l'écran (thème clair et sombre).",
+  "version": "1.1.2",
+  "code": 4,
+  "fichier": "Gestock-Pro-Android-1.1.2.apk",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Android-1.1.2.apk",
+  "sha256": "2c9ac124929292fc00be41eb7385c6f038ed4ff2cdd491796e0600ce0652c856",
+  "taille": 13582959,
+  "notes": "Le gérant peut vendre à distance (Tailscale). Les vendeurs restent limités au Wi-Fi du magasin.",
   "date": "2026-11-03"
 }
