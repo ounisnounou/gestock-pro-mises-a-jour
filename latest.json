@@ -1,9 +1,9 @@
 {
-  "version": "1.10.1",
-  "fichier": "Gestock-Pro-Setup-1.10.1.exe",
-  "taille": 85096038,
-  "sha256": "2d8783bc123dd7f69d567296d4cd5fde30ab74b5aba1438b1dd3b27046ab74db",
+  "version": "1.10.2",
+  "fichier": "Gestock-Pro-Setup-1.10.2.exe",
+  "taille": 85083554,
+  "sha256": "af5864d73d64f26890c61c654ba17ea8c1ca1a1b88e46eee3be4acb023920b7b",
   "date": "2026-11-03",
-  "notes": "Fiche produit : un code-barres mal saisi est signalé dans le champ (au lieu d'une erreur), lecteur AZERTY corrigé automatiquement.",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.10.1.exe"
+  "notes": "Codes courts : une lettre ou un chiffre (ex. « L ») peut remplacer le code-barres d'un article.",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.10.2.exe"
 }
