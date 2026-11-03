@@ -4,8 +4,67 @@ on:
     branches: [android]
 permissions:
   contents: write
+concurrency: android
 jobs:
-  test:
+  apk:
     runs-on: ubuntu-latest
+    timeout-minutes: 40
     steps:
-      - run: echo ok && java -version && ls $ANDROID_HOME
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Modules Capacitor
+        run: npm install --no-audit --no-fund
+      - name: Clé de signature (secret ANDROID_KEYSTORE)
+        id: cle
+        env:
+          CLE: ${{ secrets.ANDROID_KEYSTORE }}
+        run: |
+          if [ -z "$CLE" ]; then echo "signe=0" >> "$GITHUB_OUTPUT"; echo "Secret ANDROID_KEYSTORE absent : APK non signé, non publié."; exit 0; fi
+          echo "::add-mask::${CLE%%|*}"
+          printf '%s' "${CLE#*|}" | base64 -d > "$RUNNER_TEMP/gestock.jks"
+          echo "GESTOCK_KS_FILE=$RUNNER_TEMP/gestock.jks" >> "$GITHUB_ENV"
+          echo "GESTOCK_KS_PASS=${CLE%%|*}" >> "$GITHUB_ENV"
+          echo "signe=1" >> "$GITHUB_OUTPUT"
+      - name: Construire l'APK
+        run: |
+          set -o pipefail
+          cd android-app
+          chmod +x gradlew
+          ./gradlew assembleRelease --no-daemon --stacktrace 2>&1 | tee ../build.log
+      - name: Publier l'APK (versions/ et android.json sur main)
+        if: steps.cle.outputs.signe == '1'
+        run: |
+          V=$(node -p "require('./version-android.json').version")
+          C=$(node -p "require('./version-android.json').code")
+          APK=android-app/app/build/outputs/apk/release/app-release.apk
+          F=Gestock-Pro-Android-$V.apk
+          git config user.name "Gestock Build"; git config user.email "build@users.noreply.github.com"
+          git fetch -q origin main
+          git worktree add -q ../main origin/main
+          mkdir -p ../main/versions
+          cp "$APK" "../main/versions/$F"
+          node -e "
+            const fs = require('fs'), crypto = require('crypto');
+            const v = require('./version-android.json'); const b = fs.readFileSync('$APK');
+            fs.writeFileSync('../main/android.json', JSON.stringify({ version: v.version, code: v.code, fichier: '$F',
+              url: 'https://raw.githubusercontent.com/${{ github.repository }}/main/versions/$F',
+              sha256: crypto.createHash('sha256').update(b).digest('hex'), taille: b.length, notes: v.notes || '', date: new Date().toISOString().slice(0, 10) }, null, 2));"
+          cd ../main
+          for x in versions/Gestock-Pro-Android-*.apk; do [ "$x" = "versions/$F" ] || git rm -q "$x"; done
+          git add -A
+          git commit -q -m "Application Android $V (code $C)"
+          for i in 1 2 3; do git push -q origin HEAD:main && break; git pull -q --rebase origin main; done
+      - name: Journal de construction
+        if: always()
+        run: |
+          git config --global user.name "Gestock Build"; git config --global user.email "build@users.noreply.github.com"
+          mkdir -p /tmp/journal && (tail -c 400000 build.log > /tmp/journal/build.log 2>/dev/null || echo "pas de journal" > /tmp/journal/build.log)
+          echo "${{ job.status }} ${{ github.sha }}" > /tmp/journal/statut.txt
+          cd /tmp/journal && git init -q -b android-logs && git add -A && git commit -q -m "Journal ${{ github.sha }}"
+          git push -q -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" HEAD:android-logs

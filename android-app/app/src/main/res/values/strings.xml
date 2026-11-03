@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Gestock Pro</string>
+    <string name="title_activity_main">Gestock Pro</string>
+    <string name="package_name">dz.gestock.mobile</string>
+    <string name="custom_url_scheme">dz.gestock.mobile</string>
+</resources>

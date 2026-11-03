@@ -1,0 +1,28 @@
+{
+	"appId": "dz.gestock.mobile",
+	"appName": "Gestock Pro",
+	"webDir": "dist-app",
+	"android": {
+		"path": "android-app",
+		"allowMixedContent": true
+	},
+	"server": {
+		"androidScheme": "http",
+		"hostname": "localhost",
+		"cleartext": true
+	},
+	"plugins": {
+		"BackgroundRunner": {
+			"label": "dz.gestock.notifs",
+			"src": "runners/notifs.js",
+			"event": "verifier",
+			"repeat": true,
+			"interval": 15,
+			"autoStart": true
+		},
+		"LocalNotifications": {
+			"smallIcon": "ic_stat_gestock",
+			"iconColor": "#006A60"
+		}
+	}
+}
