@@ -1,1 +1,1 @@
-{ "version": "1.1.0", "code": 2, "notes": "Imprimante Bluetooth du téléphone (ticket en image, arabe compris), envoi du ticket par WhatsApp, accès du gérant hors du magasin (Tailscale), mise à jour depuis l'application (par le Wi-Fi du magasin ou Internet)." }
+{ "version": "1.1.1", "code": 3, "notes": "Heure, batterie et réseau lisibles en haut de l'écran (thème clair et sombre)." }

@@ -1,5 +1,9 @@
 [
 	{
+		"pkg": "@capacitor/status-bar",
+		"classpath": "com.capacitorjs.plugins.statusbar.StatusBarPlugin"
+	},
+	{
 		"pkg": "@aparajita/capacitor-biometric-auth",
 		"classpath": "com.aparajita.capacitor.biometricauth.BiometricAuthNative"
 	},
