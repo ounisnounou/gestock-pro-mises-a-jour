@@ -1,1 +1,1 @@
-{ "version": "1.0.0", "code": 1, "notes": "Première version de l'application Android Gestock Pro : connexion automatique au magasin, vente, prix, inventaire, réception, accueil du gérant, alertes et notifications." }
+{ "version": "1.1.0", "code": 2, "notes": "Imprimante Bluetooth du téléphone (ticket en image, arabe compris), envoi du ticket par WhatsApp, accès du gérant hors du magasin (Tailscale), mise à jour depuis l'application (par le Wi-Fi du magasin ou Internet)." }

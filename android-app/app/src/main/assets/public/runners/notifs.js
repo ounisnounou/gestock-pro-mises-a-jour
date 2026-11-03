@@ -6,7 +6,7 @@ function hash(s) { let h = 0; for (let i = 0; i < s.length; i++) { h = ((h << 5)
 addEventListener('config', (resolve, reject, args) => {
   try {
     const d = args || {};
-    for (const k of ['serveur', 'token', 'langue', 'actif']) if (d[k] !== undefined) CapacitorKV.set(k, String(d[k]));
+    for (const k of ['serveur', 'serveur2', 'token', 'langue', 'actif']) if (d[k] !== undefined) CapacitorKV.set(k, String(d[k]));
     resolve();
   } catch (e) { reject(e); }
 });
@@ -17,8 +17,13 @@ addEventListener('verifier', async (resolve, reject) => {
     if (!serveur || !token || lireKV('actif', '1') !== '1') { resolve(); return; }
     const depuis = lireKV('depuis', '');
     const url = serveur + '/api/telephone/notifications?langue=' + encodeURIComponent(lireKV('langue', 'fr')) + (depuis ? '&depuis=' + encodeURIComponent(depuis) : '');
-    const r = await fetch(url, { headers: { Authorization: 'Bearer ' + token, 'X-Poste': 'Téléphone' } });
-    if (!r.ok) { resolve(); return; }
+    const entetes = { headers: { Authorization: 'Bearer ' + token, 'X-Poste': 'Téléphone' } };
+    let r = null;
+    try { r = await fetch(url, entetes); } catch (e) { r = null; }
+    // Hors du magasin : même demande par le tunnel Tailscale
+    const s2 = lireKV('serveur2', '');
+    if ((!r || !r.ok) && s2) { try { r = await fetch(url.replace(serveur, s2), entetes); } catch (e) { r = null; } }
+    if (!r || !r.ok) { resolve(); return; }
     const d = await r.json();
     let vus = [];
     try { vus = JSON.parse(lireKV('vus', '[]')); } catch (e) { vus = []; }
