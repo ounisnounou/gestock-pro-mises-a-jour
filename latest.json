@@ -1,9 +1,9 @@
 {
-  "version": "1.11.2",
-  "fichier": "Gestock-Pro-Setup-1.11.2.exe",
-  "taille": 85098048,
-  "sha256": "151f6db9da3eb7d6516d8a5b195b279b5462e31c28fbce21be945b0888642f27",
+  "version": "1.12.0",
+  "fichier": "Gestock-Pro-Setup-1.12.0.exe",
+  "taille": 85118447,
+  "sha256": "800453c1e239ee09fc1bd732ec7a31073d931e898d363bbc78d7112ee7af4c0c",
   "date": "2026-11-03",
-  "notes": "Caisse : son différent (deux bips) quand le même article est scanné encore.",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.11.2.exe"
+  "notes": "Nouvelle fenêtre d'encaissement façon ZIN : TTC en grand, F1 remise, F2 reçu, rendu, pavé numérique, billets, Valider sans imprimer (F4) / avec imprimer (F5).",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.12.0.exe"
 }
