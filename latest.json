@@ -1,9 +1,9 @@
 {
-  "version": "1.12.0",
-  "fichier": "Gestock-Pro-Setup-1.12.0.exe",
-  "taille": 85118447,
-  "sha256": "800453c1e239ee09fc1bd732ec7a31073d931e898d363bbc78d7112ee7af4c0c",
+  "version": "1.13.0",
+  "fichier": "Gestock-Pro-Setup-1.13.0.exe",
+  "taille": 85068863,
+  "sha256": "b06e374402e77a6910b656c586ad5a47caf888221524fed9a48f20daeb8d92a6",
   "date": "2026-11-03",
-  "notes": "Nouvelle fenêtre d'encaissement façon ZIN : TTC en grand, F1 remise, F2 reçu, rendu, pavé numérique, billets, Valider sans imprimer (F4) / avec imprimer (F5).",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.12.0.exe"
+  "notes": "Raccourcis clavier réglables (Administration → Raccourcis clavier), produits sur Ctrl+1…, aide « Touches » à la caisse, aide-mémoire à imprimer.",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.13.0.exe"
 }
