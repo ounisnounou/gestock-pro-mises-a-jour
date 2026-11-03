@@ -1,9 +1,9 @@
 {
-  "version": "1.10.2",
-  "fichier": "Gestock-Pro-Setup-1.10.2.exe",
-  "taille": 85083554,
-  "sha256": "af5864d73d64f26890c61c654ba17ea8c1ca1a1b88e46eee3be4acb023920b7b",
+  "version": "1.10.3",
+  "fichier": "Gestock-Pro-Setup-1.10.3.exe",
+  "taille": 85100851,
+  "sha256": "b5cb6420dae19f4a8f9ae2cba187780fc997e2e3f1b1c4b7525f9cc52288e02b",
   "date": "2026-11-03",
-  "notes": "Codes courts : une lettre ou un chiffre (ex. « L ») peut remplacer le code-barres d'un article.",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.10.2.exe"
+  "notes": "Le gérant peut vendre depuis le téléphone hors du magasin (Tailscale).",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.10.3.exe"
 }
