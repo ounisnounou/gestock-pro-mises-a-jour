@@ -1,1 +1,1 @@
-{ "version": "1.1.4", "code": 6, "notes": "Réception : bouton « Annuler la réception » (avec confirmation)." }
+{ "version": "1.1.5", "code": 7, "notes": "4G sans Wi-Fi : plus d'écran noir au démarrage, attente limitée, accueil « Pas de connexion au magasin » avec Réessayer et rappel Tailscale." }
