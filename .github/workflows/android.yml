@@ -55,6 +55,7 @@ jobs:
           git worktree add -q ../main origin/main
           mkdir -p ../main/versions
           cp "$APK" "../main/versions/$F"
+          cp "$APK" "../main/versions/Gestock-Pro-Android.apk"   # lien fixe, toujours la dernière version (message WhatsApp)
           node -e "
             const fs = require('fs'), crypto = require('crypto');
             const v = require('./version-android.json'); const b = fs.readFileSync('$APK');
