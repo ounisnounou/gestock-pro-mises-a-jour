@@ -1,1 +1,1 @@
-{ "version": "1.1.1", "code": 3, "notes": "Heure, batterie et réseau lisibles en haut de l'écran (thème clair et sombre)." }
+{ "version": "1.1.2", "code": 4, "notes": "Le gérant peut vendre à distance (Tailscale). Les vendeurs restent limités au Wi-Fi du magasin." }
