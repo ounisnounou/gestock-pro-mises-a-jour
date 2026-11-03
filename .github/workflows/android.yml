@@ -26,17 +26,23 @@ jobs:
           CLE: ${{ secrets.ANDROID_KEYSTORE }}
         run: |
           if [ -z "$CLE" ]; then echo "signe=0" >> "$GITHUB_OUTPUT"; echo "Secret ANDROID_KEYSTORE absent : APK non signé, non publié."; exit 0; fi
-          echo "::add-mask::${CLE%%|*}"
-          printf '%s' "${CLE#*|}" | base64 -d > "$RUNNER_TEMP/gestock.jks"
+          PASS=$(printf '%s' "${CLE%%|*}" | tr -d ' \r\n\t')
+          echo "::add-mask::$PASS"
+          printf '%s' "${CLE#*|}" | tr -d ' \r\n\t' | base64 -d > "$RUNNER_TEMP/gestock.jks" || true
+          echo "Clé : $(stat -c %s "$RUNNER_TEMP/gestock.jks") octets, empreinte $(sha256sum "$RUNNER_TEMP/gestock.jks" | cut -c1-16) (attendu : 2682 octets, 15cb9cfa00e88585)" | tee -a build.log
+          if ! keytool -list -keystore "$RUNNER_TEMP/gestock.jks" -storepass "$PASS" -alias gestock > /dev/null 2>&1; then
+            echo "::error::Le secret ANDROID_KEYSTORE est incomplet ou mal collé (texte coupé ?). Recollez tout le contenu du fichier ANDROID_KEYSTORE-secret.txt."; echo "CLE INVALIDE" >> build.log
+            exit 1
+          fi
           echo "GESTOCK_KS_FILE=$RUNNER_TEMP/gestock.jks" >> "$GITHUB_ENV"
-          echo "GESTOCK_KS_PASS=${CLE%%|*}" >> "$GITHUB_ENV"
+          echo "GESTOCK_KS_PASS=$PASS" >> "$GITHUB_ENV"
           echo "signe=1" >> "$GITHUB_OUTPUT"
       - name: Construire l'APK
         run: |
           set -o pipefail
           cd android-app
           chmod +x gradlew
-          ./gradlew assembleRelease --no-daemon --stacktrace 2>&1 | tee ../build.log
+          ./gradlew assembleRelease --no-daemon --stacktrace 2>&1 | tee -a ../build.log
       - name: Publier l'APK (versions/ et android.json sur main)
         if: steps.cle.outputs.signe == '1'
         run: |
