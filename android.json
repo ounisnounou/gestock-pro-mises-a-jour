@@ -1,10 +1,10 @@
 {
-  "version": "1.1.3",
-  "code": 5,
-  "fichier": "Gestock-Pro-Android-1.1.3.apk",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Android-1.1.3.apk",
-  "sha256": "357a33319371acf8bbfd5047e17687ef3926233edf183b1ac4f3431e76386f47",
-  "taille": 13584311,
-  "notes": "Sons : article scanné, erreur (avec vibration), vente enregistrée. Réglage dans le menu ☰ → Sons.",
+  "version": "1.1.4",
+  "code": 6,
+  "fichier": "Gestock-Pro-Android-1.1.4.apk",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Android-1.1.4.apk",
+  "sha256": "6feddc9db4881ded0493a7a8002340c563c0d2b28bcb7c2755ce62123f86e9b8",
+  "taille": 13584735,
+  "notes": "Réception : bouton « Annuler la réception » (avec confirmation).",
   "date": "2026-11-03"
 }
