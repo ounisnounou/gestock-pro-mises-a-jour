@@ -1,10 +1,10 @@
 {
-  "version": "1.1.4",
-  "code": 6,
-  "fichier": "Gestock-Pro-Android-1.1.4.apk",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Android-1.1.4.apk",
-  "sha256": "6feddc9db4881ded0493a7a8002340c563c0d2b28bcb7c2755ce62123f86e9b8",
-  "taille": 13584735,
-  "notes": "Réception : bouton « Annuler la réception » (avec confirmation).",
+  "version": "1.1.5",
+  "code": 7,
+  "fichier": "Gestock-Pro-Android-1.1.5.apk",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Android-1.1.5.apk",
+  "sha256": "48aa3aad7f901db34e7cf217c310b0a68ebc7e00e3fde972888f71b11c70eeab",
+  "taille": 13585695,
+  "notes": "4G sans Wi-Fi : plus d'écran noir au démarrage, attente limitée, accueil « Pas de connexion au magasin » avec Réessayer et rappel Tailscale.",
   "date": "2026-11-03"
 }
