@@ -1,9 +1,9 @@
 {
-  "version": "1.10.3",
-  "fichier": "Gestock-Pro-Setup-1.10.3.exe",
-  "taille": 85100851,
-  "sha256": "b5cb6420dae19f4a8f9ae2cba187780fc997e2e3f1b1c4b7525f9cc52288e02b",
+  "version": "1.10.4",
+  "fichier": "Gestock-Pro-Setup-1.10.4.exe",
+  "taille": 85111281,
+  "sha256": "37942b1f2089639e1d110f4daed0a471eee2719e5b2991fe8e21dd736bd7e80b",
   "date": "2026-11-03",
-  "notes": "Le gérant peut vendre depuis le téléphone hors du magasin (Tailscale).",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.10.3.exe"
+  "notes": "Code-barres inconnu : bouton « Créer un nouveau produit » (caisse et réception), le produit est ajouté directement.",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.10.4.exe"
 }
