@@ -1,9 +1,9 @@
 {
-  "version": "1.7.0",
-  "fichier": "Gestock-Pro-Setup-1.7.0.exe",
-  "taille": 85099304,
-  "sha256": "b7d25b78d60ee28540a8a3c4350034b6adb4dc017d21ec79f711f02544e20d6c",
-  "date": "2026-11-02",
-  "notes": "Nouveau (sans Internet) : Achats → Commandes conseillées (quantités selon vos ventes, les jours de livraison de chaque fournisseur et le Ramadan) ; Gestion → Surveillance de la caisse (annulations, remises, écarts, ventes à perte, ventes hors horaires) ; Stock → Nettoyage du catalogue (doublons, noms, familles, codes-barres, produits dormants).",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.7.0.exe"
+  "version": "1.8.0",
+  "fichier": "Gestock-Pro-Setup-1.8.0.exe",
+  "taille": 85096335,
+  "sha256": "0f3f11686aea8619bc8e60582043cbf51d4f537ae6b1310fcc6abf2520b9735a",
+  "date": "2026-11-03",
+  "notes": "Nouveau : application Android Gestock Pro (Administration → Téléphone : QR code de téléchargement). Le poste serveur envoie les notifications au téléphone et accepte les ventes faites sans Wi-Fi sans jamais les compter deux fois.",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.8.0.exe"
 }
