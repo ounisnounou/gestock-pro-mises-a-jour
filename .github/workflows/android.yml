@@ -29,7 +29,7 @@ jobs:
           PASS=$(printf '%s' "${CLE%%|*}" | tr -d ' \r\n\t')
           echo "::add-mask::$PASS"
           printf '%s' "${CLE#*|}" | tr -d ' \r\n\t' | base64 -d > "$RUNNER_TEMP/gestock.jks" || true
-          echo "Clé : $(stat -c %s "$RUNNER_TEMP/gestock.jks") octets, empreinte $(sha256sum "$RUNNER_TEMP/gestock.jks" | cut -c1-16) (attendu : 2682 octets, 15cb9cfa00e88585)" | tee -a build.log
+          echo "Clé : $(stat -c %s "$RUNNER_TEMP/gestock.jks") octets, empreinte $(sha256sum "$RUNNER_TEMP/gestock.jks" | cut -c1-16) (attendu : 1014 octets, 77b3984469b2faaf)" | tee -a build.log
           if ! keytool -list -keystore "$RUNNER_TEMP/gestock.jks" -storepass "$PASS" -alias gestock > /dev/null 2>&1; then
             echo "::error::Le secret ANDROID_KEYSTORE est incomplet ou mal collé (texte coupé ?). Recollez tout le contenu du fichier ANDROID_KEYSTORE-secret.txt."; echo "CLE INVALIDE" >> build.log
             exit 1
