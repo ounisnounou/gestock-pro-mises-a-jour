@@ -1,9 +1,10 @@
 {
-  "version": "1.17.0",
-  "fichier": "Gestock-Pro-Setup-1.17.0.exe",
-  "taille": 85101192,
-  "sha256": "2c2a46250af09cc7cd33ec71c751034f3408b655fac473e9c2fdc8f0cce43436",
+  "version": "1.18.0",
+  "fichier": "Gestock-Pro-Setup-1.18.0.exe",
+  "taille": 85123579,
+  "sha256": "f2011dad7c0a8605345aa03a786c7fb68b7a5f019b056c972aae13bca2f668cb",
   "date": "2026-11-04",
-  "notes": "Admin → Téléphone : cadre « Caisse sur un ancien PC (Windows 7 / 8) » avec l'adresse à ouvrir dans Chrome.",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.17.0.exe"
+  "notes": "Sécurité : les mises à jour sont maintenant signées ; une mise à jour non signée est refusée.",
+  "signature": "MXAce8toTCibRaflo6/+olz54zKHNa5EGJWN7cnpiU9AFbay4uIGpUPbpoDP+nlDn0MBhzBhbzbddggGzKx3Dg==",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.18.0.exe"
 }
