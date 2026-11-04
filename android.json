@@ -6,5 +6,6 @@
   "sha256": "a14a53226545ee9fe5d254e9d0c1c76589cd43c308d63de8d167475992e3760b",
   "taille": 13603343,
   "notes": "Sécurité : l'application n'accepte plus que les mises à jour signées par Gestock Pro.",
-  "date": "2026-11-04"
+  "date": "2026-11-04",
+  "signature": "vfODrlwbVYCI+7ef6m1XLsq5R3MTPCw9pGPFJLbhFm1DoCcA7zl9CQN46UMO/BkiJsGQth5uX0+1vINr+YCRDg=="
 }
