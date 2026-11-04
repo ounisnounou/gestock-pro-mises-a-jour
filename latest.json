@@ -1,10 +1,10 @@
 {
-  "version": "1.21.0",
-  "fichier": "Gestock-Pro-Setup-1.21.0.exe",
-  "taille": 85179907,
-  "sha256": "59440f8e2a4432727aae323e3f6bc9aa996becc7cf9385dcd34104bba707e541",
+  "version": "1.22.0",
+  "fichier": "Gestock-Pro-Setup-1.22.0.exe",
+  "taille": 85149664,
+  "sha256": "6a0eaf933423a331a2ea5187eaae1c7451409c5c2d8e5756ed3272a646778b8f",
   "date": "2026-11-04",
-  "notes": "Copie hors du magasin : chaque jour une copie chiffrée part vers le téléphone du gérant et/ou un dossier Google Drive. Restauration d'une copie avec le mot de passe des copies.",
-  "signature": "H/n/0z/Fyej1RvWZhIv3hm8O6+OVB1nMRwH4IdhANEmfw009G/cryuJD+w67p58n1P/Ol3++/1l6u0GDm9LSAw==",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.21.0.exe"
+  "notes": "Fin de journée : la nuit et après la clôture de caisse, les sessions des travailleurs sont fermées ; chacun se reconnecte le lendemain avec son code PIN. Le gérant reste connecté.",
+  "signature": "IscgjQOKN4HiJkY+58v0luWS5z1KG+IDkowDoDzxrafF5hi8a5sGHuNeDNWMLYktvHOwqgLY6Wo1f9q/B3b/Aw==",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.22.0.exe"
 }
