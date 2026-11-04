@@ -1,11 +1,10 @@
 {
-  "version": "1.1.9",
-  "code": 11,
-  "fichier": "Gestock-Pro-Android-1.1.9.apk",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Android-1.1.9.apk",
-  "sha256": "a14a53226545ee9fe5d254e9d0c1c76589cd43c308d63de8d167475992e3760b",
-  "taille": 13603343,
-  "notes": "Sécurité : l'application n'accepte plus que les mises à jour signées par Gestock Pro.",
-  "date": "2026-11-04",
-  "signature": "vfODrlwbVYCI+7ef6m1XLsq5R3MTPCw9pGPFJLbhFm1DoCcA7zl9CQN46UMO/BkiJsGQth5uX0+1vINr+YCRDg=="
+  "version": "1.1.10",
+  "code": 12,
+  "fichier": "Gestock-Pro-Android-1.1.10.apk",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Android-1.1.10.apk",
+  "sha256": "a98ad156ebeda29c0bd1adcb511fe4ce8d883146dafe36e92037800e07a79e05",
+  "taille": 13607567,
+  "notes": "Appareils connectés : le gérant peut déconnecter ou bloquer un téléphone perdu, et autoriser chaque nouveau téléphone depuis l'Accueil.",
+  "date": "2026-11-04"
 }
