@@ -1,9 +1,9 @@
 {
-  "version": "1.13.0",
-  "fichier": "Gestock-Pro-Setup-1.13.0.exe",
-  "taille": 85068863,
-  "sha256": "b06e374402e77a6910b656c586ad5a47caf888221524fed9a48f20daeb8d92a6",
-  "date": "2026-11-03",
-  "notes": "Raccourcis clavier réglables (Administration → Raccourcis clavier), produits sur Ctrl+1…, aide « Touches » à la caisse, aide-mémoire à imprimer.",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.13.0.exe"
+  "version": "1.14.0",
+  "fichier": "Gestock-Pro-Setup-1.14.0.exe",
+  "taille": 85106862,
+  "sha256": "2a89ce4d942c0120fb76d297db12fa3e7242164262e53f065e8ff66fa4bac004",
+  "date": "2026-11-04",
+  "notes": "Prix du colis : fiche produit « Prix du colis entier » (ex. 6 pour 250 DA), appliqué automatiquement à la caisse.",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.14.0.exe"
 }
