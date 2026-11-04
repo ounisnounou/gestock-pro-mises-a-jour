@@ -1,1 +1,1 @@
-{ "version": "1.1.10", "code": 12, "notes": "Appareils connectés : le gérant peut déconnecter ou bloquer un téléphone perdu, et autoriser chaque nouveau téléphone depuis l'Accueil." }
+{ "version": "1.1.11", "code": 13, "notes": "Sauvegardes : le téléphone du gérant reçoit chaque jour une copie chiffrée du magasin (menu ☰ → Sauvegardes)." }
