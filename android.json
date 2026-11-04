@@ -1,11 +1,10 @@
 {
-  "version": "1.1.13",
-  "code": 15,
-  "fichier": "Gestock-Pro-Android-1.1.13.apk",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Android-1.1.13.apk",
-  "sha256": "126d50f3da4f4460165d65c537f1b6f8d136170e3e9abc3fe2fbccfef5296bf6",
-  "taille": 13613223,
-  "notes": "Fiche produit : bouton « Étiquette de rayon à imprimer » (ajoutée à la liste du PC).",
-  "date": "2026-11-04",
-  "signature": "gUmtQUQw01mw2IQbGbSCojoG55yub/MarxLBGLxMl56ob4PxUU84cVxjeRivb1dgXvO0JB8fRDzvMBWaST1PCw=="
+  "version": "1.1.14",
+  "code": 16,
+  "fichier": "Gestock-Pro-Android-1.1.14.apk",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Android-1.1.14.apk",
+  "sha256": "f26cae932ec5148d14dbb789adf2be7a048b1067746a5c6982929d2b340d38dc",
+  "taille": 13614019,
+  "notes": "La caméra lit aussi les QR codes des étiquettes du magasin.",
+  "date": "2026-11-04"
 }
