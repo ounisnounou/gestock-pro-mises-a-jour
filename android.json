@@ -6,5 +6,6 @@
   "sha256": "f26cae932ec5148d14dbb789adf2be7a048b1067746a5c6982929d2b340d38dc",
   "taille": 13614019,
   "notes": "La caméra lit aussi les QR codes des étiquettes du magasin.",
-  "date": "2026-11-04"
+  "date": "2026-11-04",
+  "signature": "D/UbcQLGwAFhTkC+f8H9hhDdBUWMwHUXqIRucYR0/1NZ2f9sHWaGgdHrxddnZ97uV0qHciDbbE9Mu9OtzoNrCA=="
 }
