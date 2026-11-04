@@ -1,10 +1,10 @@
 {
-  "version": "1.23.0",
-  "fichier": "Gestock-Pro-Setup-1.23.0.exe",
-  "taille": 85127882,
-  "sha256": "61b41adcba902ddc368739b1facc7c40651d919ca7bc2c2d3200a2428fc7b6f5",
+  "version": "1.24.0",
+  "fichier": "Gestock-Pro-Setup-1.24.0.exe",
+  "taille": 85148058,
+  "sha256": "4c9935357d4b8cdc67b12e6943a03f31bd775b9a87b51b27cdf89647f9e45d5d",
   "date": "2026-11-04",
-  "notes": "Caisse : les produits apparaissent pendant la frappe dans le champ code-barres (sans appuyer sur Entrée).",
-  "signature": "7sTjFyFIwYOYw3HJOvMfBmVZyLGGCBz0bCMn08uN5EjCDz6ubmOlqb7I6PJobqYv7RmSa+99z8OC4H0sNffKCg==",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.23.0.exe"
+  "notes": "Code-barres inconnu : la fiche « Nouveau produit » s'ouvre directement (caisse et réception), avec « Associer à un produit existant ».",
+  "signature": "TR7XPygjQ264v1M7Tm8oMMD33OCYiD6bbszpUxqE9nJQ9mdWSObw0POOyM8P0wieJed8V6A5XK7So0RSM0NSAw==",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.24.0.exe"
 }
