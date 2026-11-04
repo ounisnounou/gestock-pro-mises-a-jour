@@ -1,10 +1,10 @@
 {
-  "version": "1.25.1",
-  "fichier": "Gestock-Pro-Setup-1.25.1.exe",
-  "taille": 85146910,
-  "sha256": "b32b25be4b2c5e1485fdd0b4275fcf262df02cddbfcdc1501d753163dbf3f1dc",
+  "version": "1.26.0",
+  "fichier": "Gestock-Pro-Setup-1.26.0.exe",
+  "taille": 85150502,
+  "sha256": "c36e74436928ea68d070a07141f631785a3822a8b29add4a2fe2cb126b70be82",
   "date": "2026-11-04",
-  "notes": "Correction : les anciens codes-barres « 0 » (import ZIN) sont retirés automatiquement ; la fiche produit ne bloque plus l'enregistrement.",
-  "signature": "aTjVYpamc0QefyFcafFg4YdSEWZT0p/wKkWC8g5DHNDDwqGdAC9bMmW/dedtLI5yGLpLg0rSMQbTPIwD/rfaCw==",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.25.1.exe"
+  "notes": "Éditeur des étiquettes produit (code-barres / QR) : 5 modèles, nom long réduit ou sur 2 lignes, QR code (produit, WhatsApp, Facebook, Google Maps), utilisé partout.",
+  "signature": "GGjNe+n2us42pgtoDCuIxlm0fc7E0WYOeMTm1ee8OxOT4hkEZ8ii49+zx7PRh/3X+zdqXaOgrl4EQmjI3VliAg==",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.26.0.exe"
 }
