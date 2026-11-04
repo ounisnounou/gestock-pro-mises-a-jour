@@ -1,1 +1,1 @@
-{ "version": "1.1.7", "code": 9, "notes": "Nouvel accueil : chiffres gardés hors ligne, tendance et courbe du jour, bouton Nouvelle vente, accès rapides avec pastilles, bandeau hors ligne plus clair (tirer vers le bas pour réessayer)." }
+{ "version": "1.1.8", "code": 10, "notes": "Code-barres du carton : scanné dans la vente ou la réception, il ajoute un colis entier." }
