@@ -1,10 +1,10 @@
 {
-  "version": "1.19.0",
-  "fichier": "Gestock-Pro-Setup-1.19.0.exe",
-  "taille": 85132273,
-  "sha256": "b0d9b59f2943f79b82766c06d645f68898036e2b152129f10fbc38d475ad121f",
+  "version": "1.20.0",
+  "fichier": "Gestock-Pro-Setup-1.20.0.exe",
+  "taille": 85158438,
+  "sha256": "b377ab64bd8c56beb0d390de4d5a7a4d493bab09f81d9279a269221ead439ff3",
   "date": "2026-11-04",
-  "notes": "Verrouillage automatique de la caisse : après quelques minutes sans activité (5 min par défaut), la caisse demande le code PIN. Bouton cadenas ou Ctrl+L pour verrouiller tout de suite. « Autre caissier » garde la vente en attente au nom du premier caissier.",
-  "signature": "2b4+balannl4Tc/Mnmi8RDURaA7ALesRtEbl55rdGNeNwKwLstTs+HigXGNTrGAroejgfjugwwlTJ45Gz9LSDA==",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.19.0.exe"
+  "notes": "Appareils connectés (Administration) : voir chaque PC et téléphone connecté, déconnecter un appareil, bloquer un téléphone perdu ou volé et changer le code PIN, accord du gérant pour chaque nouvel appareil.",
+  "signature": "9Qklw+sLis9NJbaiROlttQTbn8Hxxu3a7FgsVgx9QRuIvgA8gSw6Hh25MPK5ev1nmxTsEhHcvAqLBt1rkYOfBA==",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.20.0.exe"
 }
