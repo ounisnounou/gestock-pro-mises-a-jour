@@ -1,9 +1,9 @@
 {
-  "version": "1.14.0",
-  "fichier": "Gestock-Pro-Setup-1.14.0.exe",
-  "taille": 85106862,
-  "sha256": "2a89ce4d942c0120fb76d297db12fa3e7242164262e53f065e8ff66fa4bac004",
+  "version": "1.15.0",
+  "fichier": "Gestock-Pro-Setup-1.15.0.exe",
+  "taille": 85123276,
+  "sha256": "08bbacda3f99808190ade3e305170ddf3d4b7cdfae1c08e6f9ccc33f2eec31e6",
   "date": "2026-11-04",
-  "notes": "Prix du colis : fiche produit « Prix du colis entier » (ex. 6 pour 250 DA), appliqué automatiquement à la caisse.",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.14.0.exe"
+  "notes": "Accueil du téléphone : ventes par heure, comparaison avec hier, tiroir-caisse.",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.15.0.exe"
 }
