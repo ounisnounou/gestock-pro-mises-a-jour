@@ -1,10 +1,10 @@
 {
-  "version": "1.1.7",
-  "code": 9,
-  "fichier": "Gestock-Pro-Android-1.1.7.apk",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Android-1.1.7.apk",
-  "sha256": "60e02d727331aae0d7e5d810d33b5ea4b49e36488cb4e0fecd2a0d5fe889c5aa",
-  "taille": 13590999,
-  "notes": "Nouvel accueil : chiffres gardés hors ligne, tendance et courbe du jour, bouton Nouvelle vente, accès rapides avec pastilles, bandeau hors ligne plus clair (tirer vers le bas pour réessayer).",
+  "version": "1.1.8",
+  "code": 10,
+  "fichier": "Gestock-Pro-Android-1.1.8.apk",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Android-1.1.8.apk",
+  "sha256": "2ff13b791e53b2de5f21489a1fc16799bea81c4c74956db537ac047733bb9d4e",
+  "taille": 13591063,
+  "notes": "Code-barres du carton : scanné dans la vente ou la réception, il ajoute un colis entier.",
   "date": "2026-11-04"
 }
