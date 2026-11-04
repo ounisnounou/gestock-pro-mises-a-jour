@@ -1,1 +1,1 @@
-{ "version": "1.1.9", "code": 11, "notes": "Sécurité : l'application n'accepte plus que les mises à jour signées par Gestock Pro." }
+{ "version": "1.1.10", "code": 12, "notes": "Appareils connectés : le gérant peut déconnecter ou bloquer un téléphone perdu, et autoriser chaque nouveau téléphone depuis l'Accueil." }
