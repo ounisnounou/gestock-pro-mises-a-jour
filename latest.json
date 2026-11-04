@@ -1,10 +1,10 @@
 {
-  "version": "1.20.0",
-  "fichier": "Gestock-Pro-Setup-1.20.0.exe",
-  "taille": 85158438,
-  "sha256": "b377ab64bd8c56beb0d390de4d5a7a4d493bab09f81d9279a269221ead439ff3",
+  "version": "1.21.0",
+  "fichier": "Gestock-Pro-Setup-1.21.0.exe",
+  "taille": 85179907,
+  "sha256": "59440f8e2a4432727aae323e3f6bc9aa996becc7cf9385dcd34104bba707e541",
   "date": "2026-11-04",
-  "notes": "Appareils connectés (Administration) : voir chaque PC et téléphone connecté, déconnecter un appareil, bloquer un téléphone perdu ou volé et changer le code PIN, accord du gérant pour chaque nouvel appareil.",
-  "signature": "9Qklw+sLis9NJbaiROlttQTbn8Hxxu3a7FgsVgx9QRuIvgA8gSw6Hh25MPK5ev1nmxTsEhHcvAqLBt1rkYOfBA==",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.20.0.exe"
+  "notes": "Copie hors du magasin : chaque jour une copie chiffrée part vers le téléphone du gérant et/ou un dossier Google Drive. Restauration d'une copie avec le mot de passe des copies.",
+  "signature": "H/n/0z/Fyej1RvWZhIv3hm8O6+OVB1nMRwH4IdhANEmfw009G/cryuJD+w67p58n1P/Ol3++/1l6u0GDm9LSAw==",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.21.0.exe"
 }
