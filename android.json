@@ -1,10 +1,10 @@
 {
-  "version": "1.1.8",
-  "code": 10,
-  "fichier": "Gestock-Pro-Android-1.1.8.apk",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Android-1.1.8.apk",
-  "sha256": "2ff13b791e53b2de5f21489a1fc16799bea81c4c74956db537ac047733bb9d4e",
-  "taille": 13591063,
-  "notes": "Code-barres du carton : scanné dans la vente ou la réception, il ajoute un colis entier.",
+  "version": "1.1.9",
+  "code": 11,
+  "fichier": "Gestock-Pro-Android-1.1.9.apk",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Android-1.1.9.apk",
+  "sha256": "a14a53226545ee9fe5d254e9d0c1c76589cd43c308d63de8d167475992e3760b",
+  "taille": 13603343,
+  "notes": "Sécurité : l'application n'accepte plus que les mises à jour signées par Gestock Pro.",
   "date": "2026-11-04"
 }
