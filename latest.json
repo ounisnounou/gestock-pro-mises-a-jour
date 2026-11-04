@@ -1,10 +1,10 @@
 {
-  "version": "1.24.0",
-  "fichier": "Gestock-Pro-Setup-1.24.0.exe",
-  "taille": 85148058,
-  "sha256": "4c9935357d4b8cdc67b12e6943a03f31bd775b9a87b51b27cdf89647f9e45d5d",
+  "version": "1.25.0",
+  "fichier": "Gestock-Pro-Setup-1.25.0.exe",
+  "taille": 85142728,
+  "sha256": "e9bccb72c02b61388c16547c5eaa81c3720961ab56fccf6bbc4e8c5fbc6f4cd7",
   "date": "2026-11-04",
-  "notes": "Code-barres inconnu : la fiche « Nouveau produit » s'ouvre directement (caisse et réception), avec « Associer à un produit existant ».",
-  "signature": "TR7XPygjQ264v1M7Tm8oMMD33OCYiD6bbszpUxqE9nJQ9mdWSObw0POOyM8P0wieJed8V6A5XK7So0RSM0NSAw==",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.24.0.exe"
+  "notes": "Étiquettes de rayon (Stock) : modèles prêts (40×20, 58×40, Promo, planche A4, affiche A5), éditeur glisser-déposer, nom en arabe, prix au kg/litre, impression des prix changés, promotions, réception.",
+  "signature": "Jf4K40lgfnwMCpSj5BkM1BY1OQn4EvAZyaLXQKBxRC27fHE0gJ8ZNoRJ9uRFIIXBEaLdTnj3mV2ySY0R31RIAQ==",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.25.0.exe"
 }
