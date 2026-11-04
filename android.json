@@ -6,5 +6,6 @@
   "sha256": "00272e7aa95b5528ba3e87f4739033afb6fd041308da7eb633ab99acf4f1e849",
   "taille": 13610991,
   "notes": "Fin de journée : après la clôture ou la nuit, chaque travailleur se reconnecte avec son code PIN (« Nouvelle journée »).",
-  "date": "2026-11-04"
+  "date": "2026-11-04",
+  "signature": "3oAvwmCcwkzu7fEe7LIbemqx3/ZwG3cHwTIwlsXbzFMzbJN/h8Hiws+VP69ULHQ4Vy8akttvn8tqCcKGfN2gDA=="
 }
