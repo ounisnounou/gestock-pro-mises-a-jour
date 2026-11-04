@@ -1,10 +1,10 @@
 {
-  "version": "1.22.0",
-  "fichier": "Gestock-Pro-Setup-1.22.0.exe",
-  "taille": 85149664,
-  "sha256": "6a0eaf933423a331a2ea5187eaae1c7451409c5c2d8e5756ed3272a646778b8f",
+  "version": "1.23.0",
+  "fichier": "Gestock-Pro-Setup-1.23.0.exe",
+  "taille": 85127882,
+  "sha256": "61b41adcba902ddc368739b1facc7c40651d919ca7bc2c2d3200a2428fc7b6f5",
   "date": "2026-11-04",
-  "notes": "Fin de journée : la nuit et après la clôture de caisse, les sessions des travailleurs sont fermées ; chacun se reconnecte le lendemain avec son code PIN. Le gérant reste connecté.",
-  "signature": "IscgjQOKN4HiJkY+58v0luWS5z1KG+IDkowDoDzxrafF5hi8a5sGHuNeDNWMLYktvHOwqgLY6Wo1f9q/B3b/Aw==",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.22.0.exe"
+  "notes": "Caisse : les produits apparaissent pendant la frappe dans le champ code-barres (sans appuyer sur Entrée).",
+  "signature": "7sTjFyFIwYOYw3HJOvMfBmVZyLGGCBz0bCMn08uN5EjCDz6ubmOlqb7I6PJobqYv7RmSa+99z8OC4H0sNffKCg==",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.23.0.exe"
 }
