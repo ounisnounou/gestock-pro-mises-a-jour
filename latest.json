@@ -1,10 +1,10 @@
 {
-  "version": "1.25.0",
-  "fichier": "Gestock-Pro-Setup-1.25.0.exe",
-  "taille": 85142728,
-  "sha256": "e9bccb72c02b61388c16547c5eaa81c3720961ab56fccf6bbc4e8c5fbc6f4cd7",
+  "version": "1.25.1",
+  "fichier": "Gestock-Pro-Setup-1.25.1.exe",
+  "taille": 85146910,
+  "sha256": "b32b25be4b2c5e1485fdd0b4275fcf262df02cddbfcdc1501d753163dbf3f1dc",
   "date": "2026-11-04",
-  "notes": "Étiquettes de rayon (Stock) : modèles prêts (40×20, 58×40, Promo, planche A4, affiche A5), éditeur glisser-déposer, nom en arabe, prix au kg/litre, impression des prix changés, promotions, réception.",
-  "signature": "Jf4K40lgfnwMCpSj5BkM1BY1OQn4EvAZyaLXQKBxRC27fHE0gJ8ZNoRJ9uRFIIXBEaLdTnj3mV2ySY0R31RIAQ==",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.25.0.exe"
+  "notes": "Correction : les anciens codes-barres « 0 » (import ZIN) sont retirés automatiquement ; la fiche produit ne bloque plus l'enregistrement.",
+  "signature": "aTjVYpamc0QefyFcafFg4YdSEWZT0p/wKkWC8g5DHNDDwqGdAC9bMmW/dedtLI5yGLpLg0rSMQbTPIwD/rfaCw==",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.25.1.exe"
 }
