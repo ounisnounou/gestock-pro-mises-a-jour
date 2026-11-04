@@ -1,1 +1,1 @@
-{ "version": "1.1.8", "code": 10, "notes": "Code-barres du carton : scanné dans la vente ou la réception, il ajoute un colis entier." }
+{ "version": "1.1.9", "code": 11, "notes": "Sécurité : l'application n'accepte plus que les mises à jour signées par Gestock Pro." }
