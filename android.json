@@ -1,10 +1,10 @@
 {
-  "version": "1.1.5",
-  "code": 7,
-  "fichier": "Gestock-Pro-Android-1.1.5.apk",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Android-1.1.5.apk",
-  "sha256": "48aa3aad7f901db34e7cf217c310b0a68ebc7e00e3fde972888f71b11c70eeab",
-  "taille": 13585695,
-  "notes": "4G sans Wi-Fi : plus d'écran noir au démarrage, attente limitée, accueil « Pas de connexion au magasin » avec Réessayer et rappel Tailscale.",
-  "date": "2026-11-03"
+  "version": "1.1.6",
+  "code": 8,
+  "fichier": "Gestock-Pro-Android-1.1.6.apk",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Android-1.1.6.apk",
+  "sha256": "4777e7217280a0db67c68175a9f02c70c8b46eb3f37f4961148bcb3209c353f0",
+  "taille": 13588531,
+  "notes": "Prix du colis (ex. 6 pour 250 DA) affiché dans la vente sur le téléphone.",
+  "date": "2026-11-04"
 }
