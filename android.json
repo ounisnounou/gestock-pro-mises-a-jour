@@ -6,5 +6,6 @@
   "sha256": "f300d08cb4fc9b01eed4b7a95a5542c9f844b581d1ca46daef71201aa3e9614e",
   "taille": 13610211,
   "notes": "Sauvegardes : le téléphone du gérant reçoit chaque jour une copie chiffrée du magasin (menu ☰ → Sauvegardes).",
-  "date": "2026-11-04"
+  "date": "2026-11-04",
+  "signature": "4Ubg7zKCK1/wbU03bDNU29FAybmFRopHLYMeQfInTqzWYY4qx9JmfIE7/CDXz+avRioCRxeGP9uadil6u1MvBQ=="
 }
