@@ -6,5 +6,6 @@
   "sha256": "a98ad156ebeda29c0bd1adcb511fe4ce8d883146dafe36e92037800e07a79e05",
   "taille": 13607567,
   "notes": "Appareils connectés : le gérant peut déconnecter ou bloquer un téléphone perdu, et autoriser chaque nouveau téléphone depuis l'Accueil.",
-  "date": "2026-11-04"
+  "date": "2026-11-04",
+  "signature": "47UgdMUQJYbJsWpbnfvUJ6Kfeknh1RIF8L6r3oU+5XMbsh9jhFYx97VeUcxR+zIi1vmsqID9Z/lDguqEBP8QDg=="
 }
