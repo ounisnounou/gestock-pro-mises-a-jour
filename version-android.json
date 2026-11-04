@@ -1,1 +1,1 @@
-{ "version": "1.1.6", "code": 8, "notes": "Prix du colis (ex. 6 pour 250 DA) affiché dans la vente sur le téléphone." }
+{ "version": "1.1.7", "code": 9, "notes": "Nouvel accueil : chiffres gardés hors ligne, tendance et courbe du jour, bouton Nouvelle vente, accès rapides avec pastilles, bandeau hors ligne plus clair (tirer vers le bas pour réessayer)." }
