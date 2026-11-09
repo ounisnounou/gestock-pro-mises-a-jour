@@ -1,10 +1,10 @@
 {
-  "version": "1.29.4",
-  "fichier": "Gestock-Pro-Setup-1.29.4.exe",
-  "taille": 85189976,
-  "sha256": "db6787f774912fa4d25d8a81ff70ed871b078e56519ab69fc260206c76d73550",
+  "version": "1.29.5",
+  "fichier": "Gestock-Pro-Setup-1.29.5.exe",
+  "taille": 85183375,
+  "sha256": "fdb264aca81ca5c59fdb2e124d877f7e8898c032f1f89d19809b97808b48ad9c",
   "date": "2026-11-09",
-  "notes": "Lecture des factures : fardeaux de boissons (« 8 B », « 6B ») convertis en bouteilles, TVA de la facture ajoutée, bouton « Créer le fournisseur », lecture plus rapide.",
-  "signature": "14Kd9VCibsn8yvDB3iVgKUJj+TUsBToHDWJfU1ajddIh/eqzVv71MzNA6CT8/LNTBt2BTvj1eNAW9RNoyUcyAQ==",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.29.4.exe"
+  "notes": "Lecture des factures : propose seulement des produits de la même marque, « Créer un nouveau produit » depuis la recherche, photo tournable, « Relire avec le modèle précis » quand le total ne correspond pas.",
+  "signature": "ZH37Mb/Lpg5XPbG1vGvT8uXkGa1MNJOszh/Ki/osyYzNPbkqqSId3C4uwr62pWcNy2BlT4Y/EK7zFZGfjyQRBQ==",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.29.5.exe"
 }
