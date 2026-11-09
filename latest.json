@@ -1,10 +1,10 @@
 {
-  "version": "1.32.4",
-  "fichier": "Gestock-Pro-Setup-1.32.4.exe",
-  "taille": 85204529,
-  "sha256": "a14d690fa8cb0bd35e8cdea2daf0f296567c238aa82e45e0bd2dbeff23145b3b",
+  "version": "1.32.5",
+  "fichier": "Gestock-Pro-Setup-1.32.5.exe",
+  "taille": 85282518,
+  "sha256": "8cd2489e847975ad4220a0a9f066394dbef76dc96dc3d52ba8fbb52fe4d01112",
   "date": "2026-11-09",
-  "notes": "Mises à jour vérifiées toutes les heures ; lecture des factures : références fournisseur et marques promo",
-  "signature": "N+FtfXlSP2JFe1+MdEAGshsO8t6Ya4M12PuK3ecmZ+kk1gC/aDWbjcgwibsgscobRIUVB1giluyI1tk/7LiVAQ==",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.32.4.exe"
+  "notes": "Clic droit sur les tickets de vente, les clients et les fournisseurs",
+  "signature": "c2cRPgWnXdOEoTIsxSbJ58m2DPK1mams+q6CVwzz6jUSkUZik6lYiTHsI+G8LDy/gLIC0vn913EpifjjjpvcAA==",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.32.5.exe"
 }
