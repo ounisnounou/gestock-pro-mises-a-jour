@@ -1,10 +1,10 @@
 {
-  "version": "1.29.1",
-  "fichier": "Gestock-Pro-Setup-1.29.1.exe",
-  "taille": 85163797,
-  "sha256": "81147df32ea43ffd1f09348e0af96d8095225f2d782d670d95a2274ba364288e",
+  "version": "1.29.2",
+  "fichier": "Gestock-Pro-Setup-1.29.2.exe",
+  "taille": 85204628,
+  "sha256": "7cb44d328453d41e96e9bec836214413dcbc8923e70df17dfd6a7fc9d28e0c34",
   "date": "2026-11-09",
-  "notes": "Les nouvelles clés Gemini (qui commencent par « AQ. ») sont acceptées.",
-  "signature": "bU2bo6tkX9ZGIreu4ih17bWjbUc0H1551hcKsXBHGGshMMc9mB2PNDghTQn6E66bEnymuzhILcYXxsquavmNCw==",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.29.1.exe"
+  "notes": "Lecture des factures plus rapide : Google ne « réfléchit » plus longtemps sur la photo ; si c'est trop lent, un modèle plus rapide prend le relais.",
+  "signature": "EXbRruqAA2pIOEtAzVB0YZJntWWbDKQHnEZWPwfJl+0gyala9FnZi/2BMU/TvDw/ZT2+kcguaFVztztabHdnCw==",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.29.2.exe"
 }
