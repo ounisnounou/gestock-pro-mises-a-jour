@@ -1,10 +1,10 @@
 {
-  "version": "1.29.6",
-  "fichier": "Gestock-Pro-Setup-1.29.6.exe",
-  "taille": 85190173,
-  "sha256": "cfbdc27cdc755e1f61a4c7b04de7418e7fc01effd4c645e6f97aa674a0a89172",
+  "version": "1.30.0",
+  "fichier": "Gestock-Pro-Setup-1.30.0.exe",
+  "taille": 85246238,
+  "sha256": "3fb4a910aabeed697e89d3452671d40038f74810362da6f49df2a19a2e224bd6",
   "date": "2026-11-09",
-  "notes": "Lecture des factures : un nom comme « 7UP » n'est plus pris pour une taille ; le message TVA n'apparaît que si la facture a un taux de TVA.",
-  "signature": "s/OP9wy8QyGHgCx5X7p2ukudpMHkDYG21mPoG1e86RaG4VlwhSRSMz43wMvep+oOiTQhqfXXJZA/ph/B0DyxBA==",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.29.6.exe"
+  "notes": "Page unique « Étiquettes » : imprimer et modifier les modèles au même endroit, enregistrement automatique, annuler/rétablir (Ctrl+Z/Ctrl+Y), « Enregistrer sous… », 10 versions par modèle, export/import des modèles (.gske).",
+  "signature": "DIW+7q9tbIWfCdQYn193wDt6OFI2H6IdaAdHOi66q9j5AA1scJTaGSmCBO/CL6PvCFMoBK3Xz/me+HdfOVhmAw==",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.30.0.exe"
 }
