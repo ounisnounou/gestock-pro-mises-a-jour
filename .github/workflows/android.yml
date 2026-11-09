@@ -37,6 +37,23 @@ jobs:
           echo "GESTOCK_KS_FILE=$RUNNER_TEMP/gestock.jks" >> "$GITHUB_ENV"
           echo "GESTOCK_KS_PASS=$PASS" >> "$GITHUB_ENV"
           echo "signe=1" >> "$GITHUB_OUTPUT"
+      - name: Gradle (si GitHub ne répond pas, miroir vérifié par l'empreinte officielle)
+        run: |
+          P=android-app/gradle/wrapper/gradle-wrapper.properties
+          URL=$(grep '^distributionUrl=' "$P" | cut -d= -f2- | tr -d '\\')
+          NOM=$(basename "$URL")
+          SHA=$(curl -fsSL --retry 5 --retry-delay 5 "$URL.sha256" | tr -d ' \r\n' || true)
+          echo "Gradle $NOM, empreinte : ${SHA:-inconnue}" | tee -a build.log
+          if [ -z "$SHA" ]; then echo "Pas d'empreinte officielle : téléchargement normal par le wrapper." | tee -a build.log; exit 0; fi
+          for u in "$URL" "https://mirrors.cloud.tencent.com/gradle/$NOM" "https://mirrors.huaweicloud.com/gradle/$NOM"; do
+            rm -f "$RUNNER_TEMP/$NOM"
+            if curl -fL --retry 3 --retry-delay 10 -o "$RUNNER_TEMP/$NOM" "$u" && echo "$SHA  $RUNNER_TEMP/$NOM" | sha256sum -c -; then
+              sed -i "s#^distributionUrl=.*#distributionUrl=file\\://$RUNNER_TEMP/$NOM#" "$P"
+              echo "Gradle téléchargé depuis $u" | tee -a build.log
+              exit 0
+            fi
+            echo "Échec : $u" | tee -a build.log
+          done
       - name: Construire l'APK
         run: |
           set -o pipefail
