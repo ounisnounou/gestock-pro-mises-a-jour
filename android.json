@@ -6,5 +6,6 @@
   "sha256": "7f8d90ed239d839e3c1c07295dcd282137ad29d93c5c58d1f44b3090ca7cf9c0",
   "taille": 13623179,
   "notes": "Réception : photo de la facture du fournisseur envoyée au PC (lecture automatique).",
-  "date": "2026-11-09"
+  "date": "2026-11-09",
+  "signature": "hck2kw2SbLgEjxtM7JWttHigSk4TQdrrhNirztnMJTQhCdr868j7oVmKS7Qyr/9ffnm/7gJZPZnq8sWPAo4mAQ=="
 }
