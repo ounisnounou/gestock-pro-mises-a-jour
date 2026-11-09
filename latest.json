@@ -1,10 +1,10 @@
 {
-  "version": "1.30.0",
-  "fichier": "Gestock-Pro-Setup-1.30.0.exe",
-  "taille": 85246238,
-  "sha256": "3fb4a910aabeed697e89d3452671d40038f74810362da6f49df2a19a2e224bd6",
+  "version": "1.31.0",
+  "fichier": "Gestock-Pro-Setup-1.31.0.exe",
+  "taille": 85242704,
+  "sha256": "81d90ed5c578412f31ae38e7675363ebf210ac7610e8d7f4512f9a9d65177013",
   "date": "2026-11-09",
-  "notes": "Page unique « Étiquettes » : imprimer et modifier les modèles au même endroit, enregistrement automatique, annuler/rétablir (Ctrl+Z/Ctrl+Y), « Enregistrer sous… », 10 versions par modèle, export/import des modèles (.gske).",
-  "signature": "DIW+7q9tbIWfCdQYn193wDt6OFI2H6IdaAdHOi66q9j5AA1scJTaGSmCBO/CL6PvCFMoBK3Xz/me+HdfOVhmAw==",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.30.0.exe"
+  "notes": "Lecture de facture : créer d'un coup les produits inconnus, revoir les prix de vente quand l'achat augmente (puis imprimer les étiquettes). Dates limites (DLC) par lot à la réception et page « Bientôt périmés ».",
+  "signature": "ypoMp3Y8Lu50q7SfdouilNgdDFOu2DUFqwNzrZsXR805g8qz1H46qx7rEHC4TX+TzzmrnRO8/gqd00sznWdcCQ==",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.31.0.exe"
 }
