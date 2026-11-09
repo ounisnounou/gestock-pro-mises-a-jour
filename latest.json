@@ -1,10 +1,10 @@
 {
-  "version": "1.29.2",
-  "fichier": "Gestock-Pro-Setup-1.29.2.exe",
-  "taille": 85204628,
-  "sha256": "7cb44d328453d41e96e9bec836214413dcbc8923e70df17dfd6a7fc9d28e0c34",
+  "version": "1.29.3",
+  "fichier": "Gestock-Pro-Setup-1.29.3.exe",
+  "taille": 85251343,
+  "sha256": "87e73b67a1ed21d805ba657736451ef0e44caa78c64c048e1af8e72f2f9eda23",
   "date": "2026-11-09",
-  "notes": "Lecture des factures plus rapide : Google ne « réfléchit » plus longtemps sur la photo ; si c'est trop lent, un modèle plus rapide prend le relais.",
-  "signature": "EXbRruqAA2pIOEtAzVB0YZJntWWbDKQHnEZWPwfJl+0gyala9FnZi/2BMU/TvDw/ZT2+kcguaFVztztabHdnCw==",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.29.2.exe"
+  "notes": "Lecture des factures : si Google est surchargé, Gestock réessaie puis passe à un autre modèle.",
+  "signature": "SBgLMFs45z6ioY5a+htJ0Xyg80qAAa2nqS5sJryx3gjlu9I2PsmK4X+KKWiqalXuX7kCTlNBMmEXrIO0lBfrCw==",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.29.3.exe"
 }
