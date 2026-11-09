@@ -1,10 +1,10 @@
 {
-  "version": "1.31.2",
-  "fichier": "Gestock-Pro-Setup-1.31.2.exe",
-  "taille": 85204613,
-  "sha256": "4c4bee9fe1993474c6ca79d6a67bdd6d6e12c17b977723f05ba6306b4d356dee",
+  "version": "1.31.3",
+  "fichier": "Gestock-Pro-Setup-1.31.3.exe",
+  "taille": 85230936,
+  "sha256": "700afc95552fc6ad19e0d77856839bfafbc666b9e73497569c12df56596b553f",
   "date": "2026-11-09",
-  "notes": "Les zones de texte s'affichent en entier ; catégories de dépenses en bulles (renommer, retirer, ajouter) ou en texte.",
-  "signature": "CyhSajJMCESLD7N71OSzalpIFV/7ZXBNPDAia5dwq1Z4JA+5WXMnnRTWeFxEACll3ZeTxkZx1iO3x5Kp1JC8CA==",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.31.2.exe"
+  "notes": "Lecture de facture : une ligne en cartons sans le nombre d'unités demande « Combien d'unités dans un carton ? » (gardé dans la fiche produit).",
+  "signature": "bDB5HuC8LaPDvLLmwIUsbbB+NttoctGr80in+oIkWPlMUAe4Rn5zAD0rQ0jDvXq6P5VzJukUKYUabpeUYmLpDQ==",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.31.3.exe"
 }
