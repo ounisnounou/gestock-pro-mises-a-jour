@@ -1,10 +1,10 @@
 {
-  "version": "1.31.5",
-  "fichier": "Gestock-Pro-Setup-1.31.5.exe",
-  "taille": 85208540,
-  "sha256": "65a1311d212a8e918f9c81c683b8c1275d6446ba48163d2f410848916ee3ab1c",
+  "version": "1.31.6",
+  "fichier": "Gestock-Pro-Setup-1.31.6.exe",
+  "taille": 85194575,
+  "sha256": "f0e43214c4532b12a8c29238ab5c8da28ad9f7f8aeecbc4d18e35b64848fa88f",
   "date": "2026-11-09",
-  "notes": "Lecture de facture : le nombre d'unités par carton se tape normalement (12…), et 1 est accepté.",
-  "signature": "JQ4p/4iRUzQc1S4K7P6ni6AgfjqzHBt3bOW8hQ0O+jcIacebuS/nuxolOf8P+A9h2QN6JSN1LslnH08rNEzRCw==",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.31.5.exe"
+  "notes": "Menu : « Éditeur de ticket de caisse ».",
+  "signature": "7zxMEDU5abMUEXP4EmxRgwdLO/A4KOhKyUHoXf+XxGU90YtFf+Xl4E9iqDB8Kznw1Q70p50f45V9K61RPGK+Ag==",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.31.6.exe"
 }
