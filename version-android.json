@@ -1,1 +1,1 @@
-{ "version": "1.1.14", "code": 16, "notes": "La caméra lit aussi les QR codes des étiquettes du magasin." }
+{"version": "1.1.15", "code": 17, "notes": "Réception : photo de la facture du fournisseur envoyée au PC (lecture automatique)."}
