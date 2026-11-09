@@ -1,10 +1,10 @@
 {
-  "version": "1.29.0",
-  "fichier": "Gestock-Pro-Setup-1.29.0.exe",
-  "taille": 85177045,
-  "sha256": "7b7f72848ea73aa78d4759ff2a55b3354e1a6c536d1d04ddd71e210bb75b0a69",
+  "version": "1.29.1",
+  "fichier": "Gestock-Pro-Setup-1.29.1.exe",
+  "taille": 85163797,
+  "sha256": "81147df32ea43ffd1f09348e0af96d8095225f2d782d670d95a2274ba364288e",
   "date": "2026-11-09",
-  "notes": "Lecture des factures fournisseurs par photo (Google Gemini gratuit) : Réception → « Lire une facture », vérification ligne par ligne, mémoire par fournisseur ; le téléphone peut envoyer la photo au PC. Réglage : Paramètres → Lecture des factures (IA).",
-  "signature": "PX9is2d91CDmgJyLeMeAdyi+x/nRNyTS9hvuRNYLdiBN+wfs0avSYcWkz2it5DypH6obm3k2GAZMDAc8zBleBg==",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.29.0.exe"
+  "notes": "Les nouvelles clés Gemini (qui commencent par « AQ. ») sont acceptées.",
+  "signature": "bU2bo6tkX9ZGIreu4ih17bWjbUc0H1551hcKsXBHGGshMMc9mB2PNDghTQn6E66bEnymuzhILcYXxsquavmNCw==",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.29.1.exe"
 }
