@@ -1,10 +1,10 @@
 {
-  "version": "1.27.0",
-  "fichier": "Gestock-Pro-Setup-1.27.0.exe",
-  "taille": 85189669,
-  "sha256": "b90883724bee1336a2d94821a9672800048c73e9271042951d846d21cf57fad3",
-  "date": "2026-11-04",
-  "notes": "iPhone sans application : Gestock s'ajoute à l'écran d'accueil depuis Safari (plein écran, icône Gestock), certificat du magasin pour iPhone, carte iPhone avec les étapes dans Admin → Téléphone.",
-  "signature": "Fo3bBpIy4R81CVUOBWwpGcI4v/cXIHFzrZxb6YChoDUqVjwYVVyWAUtJ+esVWG1FkY59nxwZKhLfpwp2TrPuBg==",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.27.0.exe"
+  "version": "1.28.0",
+  "fichier": "Gestock-Pro-Setup-1.28.0.exe",
+  "taille": 85160310,
+  "sha256": "6520b0809b377f023362a06f39342dc7a33943a3d4ea28d826880448f9fcc809",
+  "date": "2026-11-09",
+  "notes": "Tiroir-caisse : bouton « Tiroir » (ouverture sans vente notée, code PIN du gérant, alerte si trop d'ouvertures). Bons d'achat : vendre un bon, payer avec un bon, avoir au lieu de rembourser en espèces, page Gestion → Bons d'achat.",
+  "signature": "OBsY6XQoVrdebgl2GgANUocwHaaL7V+z+fOQhHO3sTjGT8iMULGhmNboByNrU/IWGP4NvswvLSHtJkqw+ZuCCA==",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.28.0.exe"
 }
