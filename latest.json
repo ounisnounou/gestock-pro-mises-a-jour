@@ -1,10 +1,10 @@
 {
-  "version": "1.28.1",
-  "fichier": "Gestock-Pro-Setup-1.28.1.exe",
-  "taille": 85199374,
-  "sha256": "245aefbf5c8e7051aeb97d58fc5328c728f5234970a79b5ba65742ca1f4fba92",
+  "version": "1.29.0",
+  "fichier": "Gestock-Pro-Setup-1.29.0.exe",
+  "taille": 85177045,
+  "sha256": "7b7f72848ea73aa78d4759ff2a55b3354e1a6c536d1d04ddd71e210bb75b0a69",
   "date": "2026-11-09",
-  "notes": "Correction : un code court tapé à la caisse (ex. « J ») trouve d'abord le produit qui a exactement ce code ; la liste montre le produit que Entrée va ajouter.",
-  "signature": "QI6vxZsSTsg3r6CFwgxkChY+qUzVFZcJTwieef9J1kXTuMTF0GL4f/cmB0MN1iN1lWNRWuv6RJPKxvc8LMImBA==",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.28.1.exe"
+  "notes": "Lecture des factures fournisseurs par photo (Google Gemini gratuit) : Réception → « Lire une facture », vérification ligne par ligne, mémoire par fournisseur ; le téléphone peut envoyer la photo au PC. Réglage : Paramètres → Lecture des factures (IA).",
+  "signature": "PX9is2d91CDmgJyLeMeAdyi+x/nRNyTS9hvuRNYLdiBN+wfs0avSYcWkz2it5DypH6obm3k2GAZMDAc8zBleBg==",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.29.0.exe"
 }
