@@ -1,10 +1,10 @@
 {
-  "version": "1.31.4",
-  "fichier": "Gestock-Pro-Setup-1.31.4.exe",
-  "taille": 85189991,
-  "sha256": "296be802f018c89f98024223b29e1f57520b9806d436eeb5231879fa83abfd2a",
+  "version": "1.31.5",
+  "fichier": "Gestock-Pro-Setup-1.31.5.exe",
+  "taille": 85208540,
+  "sha256": "65a1311d212a8e918f9c81c683b8c1275d6446ba48163d2f410848916ee3ab1c",
   "date": "2026-11-09",
-  "notes": "Lecture de facture : deux variantes d'une marque ne sont plus confondues, le total après promotions est reconnu, le faux pourcentage disparaît.",
-  "signature": "Tz/vOkZEtRveiGOsXUxW7/GnDqfO4VORSLgAzQMnTG5HOwdgUOHcDC6B5JiA97Av2hRdEiRSSyYhsxB+uXn0Dw==",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.31.4.exe"
+  "notes": "Lecture de facture : le nombre d'unités par carton se tape normalement (12…), et 1 est accepté.",
+  "signature": "JQ4p/4iRUzQc1S4K7P6ni6AgfjqzHBt3bOW8hQ0O+jcIacebuS/nuxolOf8P+A9h2QN6JSN1LslnH08rNEzRCw==",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.31.5.exe"
 }
