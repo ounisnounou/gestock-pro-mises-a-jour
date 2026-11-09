@@ -1,10 +1,10 @@
 {
-  "version": "1.32.3",
-  "fichier": "Gestock-Pro-Setup-1.32.3.exe",
-  "taille": 85241368,
-  "sha256": "f1520dee761d6fe178715525755ca50b14e7e695ffa4e611cad0daf8d928742c",
+  "version": "1.32.4",
+  "fichier": "Gestock-Pro-Setup-1.32.4.exe",
+  "taille": 85204529,
+  "sha256": "a14d690fa8cb0bd35e8cdea2daf0f296567c238aa82e45e0bd2dbeff23145b3b",
   "date": "2026-11-09",
-  "notes": "Clic droit : copier / coller dans les champs, et menu sur les lignes de produits",
-  "signature": "aMuLHs1M96+8KBXd5i8UBmga6/eXLL01HYqoew+XPdI3ihrmGIFAaiCr7CXFTOBhlLr6XkpavFNjAJoYE4YVBQ==",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.32.3.exe"
+  "notes": "Mises à jour vérifiées toutes les heures ; lecture des factures : références fournisseur et marques promo",
+  "signature": "N+FtfXlSP2JFe1+MdEAGshsO8t6Ya4M12PuK3ecmZ+kk1gC/aDWbjcgwibsgscobRIUVB1giluyI1tk/7LiVAQ==",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.32.4.exe"
 }
