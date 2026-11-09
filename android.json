@@ -1,11 +1,10 @@
 {
-  "version": "1.1.15",
-  "code": 17,
-  "fichier": "Gestock-Pro-Android-1.1.15.apk",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Android-1.1.15.apk",
-  "sha256": "7f8d90ed239d839e3c1c07295dcd282137ad29d93c5c58d1f44b3090ca7cf9c0",
-  "taille": 13623179,
-  "notes": "Réception : photo de la facture du fournisseur envoyée au PC (lecture automatique).",
-  "date": "2026-11-09",
-  "signature": "hck2kw2SbLgEjxtM7JWttHigSk4TQdrrhNirztnMJTQhCdr868j7oVmKS7Qyr/9ffnm/7gJZPZnq8sWPAo4mAQ=="
+  "version": "1.1.16",
+  "code": 18,
+  "fichier": "Gestock-Pro-Android-1.1.16.apk",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Android-1.1.16.apk",
+  "sha256": "fed7d8466ac05177cc8dc0470053aad8800918217ad10a3ccf178584010dec14",
+  "taille": 13630011,
+  "notes": "Réception : date limite (DLC) de chaque produit reçu, avec boutons rapides.",
+  "date": "2026-11-09"
 }
