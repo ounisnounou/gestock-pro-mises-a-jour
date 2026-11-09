@@ -1,10 +1,10 @@
 {
-  "version": "1.32.0",
-  "fichier": "Gestock-Pro-Setup-1.32.0.exe",
-  "taille": 85198561,
-  "sha256": "1458029dc7ba4c299193cc4292590505b4f867b3f289c88caecac09a4860e439",
+  "version": "1.32.1",
+  "fichier": "Gestock-Pro-Setup-1.32.1.exe",
+  "taille": 85219748,
+  "sha256": "277eb17d603ab64eef3478f7719c0bd31f9c675739c12f2214074d46b5476e1a",
   "date": "2026-11-09",
-  "notes": "Import / Export Excel : exporter produits, clients, fournisseurs, ventes et dépenses",
-  "signature": "chfXs3T/pUhXmf9LZP1tv2OeONhNRBbIAU+3Gt2im+4vzpUbRsqyeT4wVN2H6EgpgSOx7bvmN0fPE+nrrAALAA==",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.32.0.exe"
+  "notes": "Produits : scanner un code-barres ouvre la fiche du produit, ou « Nouveau produit » si le code est inconnu",
+  "signature": "YCLmXkdFoJVcPIIhmfMT6y73skK4Tq49WSJBtP2V/38ugbQQ6RxxXj+QjvlQt4UX7C1MA9gmnu46QYwdxk29Aw==",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.32.1.exe"
 }
