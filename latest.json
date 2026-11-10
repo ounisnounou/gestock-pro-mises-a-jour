@@ -1,10 +1,10 @@
 {
-  "version": "1.34.0",
-  "fichier": "Gestock-Pro-Setup-1.34.0.exe",
-  "taille": 85213873,
-  "sha256": "dafe70c3ab5987582773fb1d36b3565d893c837b66804597db35a5a241027e5e",
+  "version": "1.35.0",
+  "fichier": "Gestock-Pro-Setup-1.35.0.exe",
+  "taille": 85216690,
+  "sha256": "5a1daee54bf9ec86d72831a14017b25cbcec5fc272a34d9a0aeb1e2ba40e5695",
   "date": "2026-11-10",
-  "notes": "Étiquettes en arabe et en français : traduction des noms, modèle Rayon FR · AR",
-  "signature": "1BKHfzQZPkk2rO3ShnvCJNE45EKurF5+FK8fr3cHpfIeLUXgxxwEbBGTMVket4YgsFr5G4XQfn9i5uT5N78MCA==",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.34.0.exe"
+  "notes": "Rapport du comptable : Excel et PDF, sur demande",
+  "signature": "ho4fReUU8XwJj73CWwIioIpoetTV7EUH1kXBtKBokHgzeAeT6iSWmzsxdad+oOPQcfysFL/T26kuDLTDznkiBQ==",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.35.0.exe"
 }
