@@ -1,10 +1,10 @@
 {
-  "version": "1.36.0",
-  "fichier": "Gestock-Pro-Setup-1.36.0.exe",
-  "taille": 85234657,
-  "sha256": "a7d08af717d3d2b532c5d183fecd3a15ca45232e39ba256d81b80113ce45fa90",
+  "version": "1.37.0",
+  "fichier": "Gestock-Pro-Setup-1.37.0.exe",
+  "taille": 85305527,
+  "sha256": "d39a6d14ade64300b2c2eacabff8dc49c5bf1b7e958f09b114a0aa6f748f93f2",
   "date": "2026-11-10",
-  "notes": "Éditeur de l'écran client : aperçu en direct, dernier article en grand, noms en arabe, prix pour le client, QR code, fond et couleurs",
-  "signature": "3AJKYtqwASTvUHde+FeDARNoY3AnkFoe8OQCDz92fi/Mydq2os8m+00r8m8nq0QDWDjJXt+P8o9otDXMHIQIBQ==",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.36.0.exe"
+  "notes": "Écran client : diaporama, annonces en plein écran, thèmes prêts (Ramadan, Aïd…), mes thèmes",
+  "signature": "ksWPOhNXLstHlbHilAp+eFfW+GKHyWKjAwn9sKQhn5wid8AKj2zKOVJzkRhrSP6g3ZZotVVlSWEt3kJm3qkeBw==",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.37.0.exe"
 }
