@@ -1,10 +1,10 @@
 {
-  "version": "1.35.0",
-  "fichier": "Gestock-Pro-Setup-1.35.0.exe",
-  "taille": 85216690,
-  "sha256": "5a1daee54bf9ec86d72831a14017b25cbcec5fc272a34d9a0aeb1e2ba40e5695",
+  "version": "1.36.0",
+  "fichier": "Gestock-Pro-Setup-1.36.0.exe",
+  "taille": 85234657,
+  "sha256": "a7d08af717d3d2b532c5d183fecd3a15ca45232e39ba256d81b80113ce45fa90",
   "date": "2026-11-10",
-  "notes": "Rapport du comptable : Excel et PDF, sur demande",
-  "signature": "ho4fReUU8XwJj73CWwIioIpoetTV7EUH1kXBtKBokHgzeAeT6iSWmzsxdad+oOPQcfysFL/T26kuDLTDznkiBQ==",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.35.0.exe"
+  "notes": "Éditeur de l'écran client : aperçu en direct, dernier article en grand, noms en arabe, prix pour le client, QR code, fond et couleurs",
+  "signature": "3AJKYtqwASTvUHde+FeDARNoY3AnkFoe8OQCDz92fi/Mydq2os8m+00r8m8nq0QDWDjJXt+P8o9otDXMHIQIBQ==",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.36.0.exe"
 }
