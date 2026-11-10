@@ -1,10 +1,10 @@
 {
-  "version": "1.33.0",
-  "fichier": "Gestock-Pro-Setup-1.33.0.exe",
-  "taille": 85223225,
-  "sha256": "aca7287ee0429075b09dff0e5b4d7b96880e26b3991f3e90eedfdd6a2e104161",
+  "version": "1.34.0",
+  "fichier": "Gestock-Pro-Setup-1.34.0.exe",
+  "taille": 85213873,
+  "sha256": "dafe70c3ab5987582773fb1d36b3565d893c837b66804597db35a5a241027e5e",
   "date": "2026-11-10",
-  "notes": "Résumé du jour (au choix) : clôture, accueil, notification du téléphone, WhatsApp",
-  "signature": "K4orIEHRYPoKE/eRqluufYL2WQVeXqPS87gIYCEJR1LRVIGoXuFXT/bT/IPUQ19Gr/ZZ1QhJriUv//V+fkXCBg==",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.33.0.exe"
+  "notes": "Étiquettes en arabe et en français : traduction des noms, modèle Rayon FR · AR",
+  "signature": "1BKHfzQZPkk2rO3ShnvCJNE45EKurF5+FK8fr3cHpfIeLUXgxxwEbBGTMVket4YgsFr5G4XQfn9i5uT5N78MCA==",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.34.0.exe"
 }
