@@ -1,10 +1,10 @@
 {
-  "version": "1.40.2",
-  "fichier": "Gestock-Pro-Setup-1.40.2.exe",
-  "taille": 85267450,
-  "sha256": "07da3143a53b7c308bcf77d955a79e4323941ec4a7116f6a3553d18200cf6516",
+  "version": "1.40.3",
+  "fichier": "Gestock-Pro-Setup-1.40.3.exe",
+  "taille": 85247965,
+  "sha256": "f3fc5bc5b622eeda33d1576c360777f899406a8e112df4bb2e2f242a4040946f",
   "date": "2026-11-10",
-  "notes": "Ventes en attente : le nom du caissier reste dans la tuile",
-  "signature": "Rp55wlq9XR3VlqzaGlikuNh+iys63AE/lXt+bpB3TORZlTUODyUU0bNHhGDEIQFIgfDOwXnoZ8RiLO2xDkbVDA==",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.40.2.exe"
+  "notes": "Caisse : le choix du papier est maintenant seulement dans la fenêtre d'encaissement",
+  "signature": "AGva8GqifenWgr7i0tYLbGHhqkJEobbLQjWbklQwD2L5lYNBnHS5rilormRM3o6fApr8AfCd9y4sFMih6SxPCA==",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.40.3.exe"
 }
