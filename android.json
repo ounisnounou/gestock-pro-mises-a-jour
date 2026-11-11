@@ -1,11 +1,10 @@
 {
-  "version": "1.1.17",
-  "code": 19,
-  "fichier": "Gestock-Pro-Android-1.1.17.apk",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Android-1.1.17.apk",
-  "sha256": "0ec3e0e3a5b06b70df9831829e0319c2d6205bc4120600d1778ff38460d96c58",
-  "taille": 13636247,
-  "notes": "Résumé du jour : page dans l’accueil (jours précédents), ouverte aussi depuis la notification de clôture.",
-  "date": "2026-11-10",
-  "signature": "18RQZNhlIw0jUWqHKXVUEi25u2Ss7rqJVjfedFc2zwaACEDCwomi+N6Ep56ZGE4yHGVcy6thHPcDzsjBoALjBA=="
+  "version": "1.1.18",
+  "code": 20,
+  "fichier": "Gestock-Pro-Android-1.1.18.apk",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Android-1.1.18.apk",
+  "sha256": "be4971782239b49c4db689933069673a23c96ff9d42286dd82f06f11caf6a08a",
+  "taille": 13649639,
+  "notes": "Inventaire : démarrer un inventaire depuis le téléphone (famille, rayon, marque, ce qu'on scanne), compter à plusieurs en même temps que le PC, carton = toutes ses unités.",
+  "date": "2026-11-11"
 }
