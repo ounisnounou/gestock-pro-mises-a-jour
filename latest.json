@@ -1,10 +1,10 @@
 {
-  "version": "1.42.1",
-  "fichier": "Gestock-Pro-Setup-1.42.1.exe",
-  "taille": 85276972,
-  "sha256": "7051c2bc65fec7e6c23f85d28103a67b0aaa2884b9aee34e1e8e81d377709e61",
+  "version": "1.42.2",
+  "fichier": "Gestock-Pro-Setup-1.42.2.exe",
+  "taille": 85268285,
+  "sha256": "1cfbb4582b703480444bcdf3f53ff1c45dab5b7562855f7fe602b660e2f0f32a",
   "date": "2026-11-11",
-  "notes": "1.42.1 : Réception — bouton « Ignorer » sur chaque facture envoyée par téléphone, et « Tout ignorer ».",
-  "signature": "UbjbrBBC2Ig1bF+umHzvkxsP1ToZ4kXHNLt2HQnJrdRlH0P/BTKHRUkkJYp2JFjeiP7m4H6nQnfwUq/5+5hNBA==",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.42.1.exe"
+  "notes": "1.42.2 : ajouter un nouveau fournisseur directement depuis toute liste de fournisseurs (réception, bons d'entrée, retours, commandes, lecture de facture, fiche produit).",
+  "signature": "YBQhawuFpqDIyHGE0KjWso7z53+f+6lT2P+VtPIABPvAj/dkIUrNjORw/VovdqBR6LhRRwAEOB0VNT85XN77Aw==",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.42.2.exe"
 }
