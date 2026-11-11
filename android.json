@@ -6,5 +6,6 @@
   "sha256": "a4e376617adb55d38a000b95ef829b141f6fb3f6ae815c759ea1d55ee7c26412",
   "taille": 13652247,
   "notes": "Réception : ajouter un nouveau fournisseur directement depuis la liste des fournisseurs.",
-  "date": "2026-11-11"
+  "date": "2026-11-11",
+  "signature": "uh9FvNytxkDEmx4Is8scXINRJTGqn6PbeGE8uXF4JrCPtgWBwvF8XG0VPnYbe1Y8NIwTtZpDG6B8tUyAt66zBw=="
 }
