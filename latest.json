@@ -1,10 +1,10 @@
 {
-  "version": "1.42.4",
-  "fichier": "Gestock-Pro-Setup-1.42.4.exe",
-  "taille": 85328996,
-  "sha256": "c0d213fe73a100ba20d7f4878847af9234e9c1bdc855aac89efd14b410d804d8",
+  "version": "1.42.5",
+  "fichier": "Gestock-Pro-Setup-1.42.5.exe",
+  "taille": 85306220,
+  "sha256": "320faa80f8feefd77d2a222f78bdfd6a164c092460279d6375470e98304cfcc8",
   "date": "2026-11-12",
-  "notes": "1.42.4 : téléphone — quantité par scan (×6, ×12…) en réception et inventaire ; application Android 1.1.20 avec le lecteur Google ML Kit.",
-  "signature": "tus+J+G5Eyljy4zsgYAeiz2fIJNsWNQoP+N/mMnXdR5DDOxp3AJzpXK09YtpNLysH1baeFo3GVH5XCcSiPvOBQ==",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.42.4.exe"
+  "notes": "1.42.5 : Réception — une facture envoyée par téléphone ne peut plus être ajoutée deux fois par erreur.",
+  "signature": "Pu3O9OwjDI2wZNEO8bKK6KwdCS4N8u7lndBhQCKxt6atHj/n8d4+D2cIhmMfVRmTb7WPIVnh/4aYRelULXgIDA==",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.42.5.exe"
 }
