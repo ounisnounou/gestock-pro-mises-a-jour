@@ -2,6 +2,7 @@
   "name": "gestock-pro-android",
   "private": true,
   "dependencies": {
+    "@capacitor-mlkit/barcode-scanning": "8.2.2",
     "@capacitor/status-bar": "8.0.4",
     "@aparajita/capacitor-biometric-auth": "10.0.0",
     "@capacitor/android": "8.6.0",

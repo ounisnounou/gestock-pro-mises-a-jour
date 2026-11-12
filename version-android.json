@@ -1,1 +1,1 @@
-{"version": "1.1.19", "code": 21, "notes": "Réception : ajouter un nouveau fournisseur directement depuis la liste des fournisseurs."}
+{"version": "1.1.20", "code": 22, "notes": "Nouveau lecteur de code-barres Google ML Kit (plus rapide), cadre, zoom, quantité par scan."}
