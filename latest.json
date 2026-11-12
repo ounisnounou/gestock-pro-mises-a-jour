@@ -1,10 +1,10 @@
 {
-  "version": "1.42.3",
-  "fichier": "Gestock-Pro-Setup-1.42.3.exe",
-  "taille": 85303081,
-  "sha256": "19171cd6d079b57d8f969f9ee155d5a4309d0e2077613ca35e73a6855d39f09c",
-  "date": "2026-11-11",
-  "notes": "1.42.3 : le tiroir peut s'ouvrir dès le clic sur « Encaisser » (Paramètres → Impression) ; les ouvertures sans argent sont notées.",
-  "signature": "+z1K3uoFviVCXblTmbiUajYwTVveH3Uhny1UYp6KTbeFpMmUhgu58x9AkwBktXFOEBmoEvfR+9WphxJUp9qyBw==",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.42.3.exe"
+  "version": "1.42.4",
+  "fichier": "Gestock-Pro-Setup-1.42.4.exe",
+  "taille": 85328996,
+  "sha256": "c0d213fe73a100ba20d7f4878847af9234e9c1bdc855aac89efd14b410d804d8",
+  "date": "2026-11-12",
+  "notes": "1.42.4 : téléphone — quantité par scan (×6, ×12…) en réception et inventaire ; application Android 1.1.20 avec le lecteur Google ML Kit.",
+  "signature": "tus+J+G5Eyljy4zsgYAeiz2fIJNsWNQoP+N/mMnXdR5DDOxp3AJzpXK09YtpNLysH1baeFo3GVH5XCcSiPvOBQ==",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.42.4.exe"
 }
