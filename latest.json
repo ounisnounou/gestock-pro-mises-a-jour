@@ -1,10 +1,10 @@
 {
-  "version": "1.43.0",
-  "fichier": "Gestock-Pro-Setup-1.43.0.exe",
-  "taille": 85299226,
-  "sha256": "55bbb1f11ae9f55636f7f34fbb9b8c9388f9e3e83417af1cf42aa78c30205811",
+  "version": "1.43.1",
+  "fichier": "Gestock-Pro-Setup-1.43.1.exe",
+  "taille": 85306019,
+  "sha256": "51b32e4ae43632037f9c46b60ed6a8ffcd66831e74519b31440e97caa8d6f99e",
   "date": "2026-11-16",
-  "notes": "1.43.0 : factures envoyées par téléphone lues une par une, jusqu'à 10 pages ; application Android 1.1.21 (caméra, plusieurs factures d'un coup).",
-  "signature": "SuQQ5SUzARPwncz5l+JQz254qHtnj26BXfo0X/belANbicgC94BXnYig7A0ZZJtWeUM8UT+hmUTdMSOJ+vPrCQ==",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.43.0.exe"
+  "notes": "1.43.1 : téléphone — suggestions de produits pendant la frappe (aussi sans Wi-Fi).",
+  "signature": "zTutJN3iTSLbIJfU8yUHpn2u5WOu3Ou/8A4HQLJs38dnmabWUqB4PEHxvzO0dAr862HEoHd+KNK/8VfSe7jrCQ==",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.43.1.exe"
 }
