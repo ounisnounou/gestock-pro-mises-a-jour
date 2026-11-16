@@ -1,11 +1,10 @@
 {
-  "version": "1.1.20",
-  "code": 22,
-  "fichier": "Gestock-Pro-Android-1.1.20.apk",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Android-1.1.20.apk",
-  "sha256": "a9344675e328f76f3df24436a333697d6fc793e9b4bf53563b74e4e9928828ab",
-  "taille": 36664048,
-  "notes": "Nouveau lecteur de code-barres Google ML Kit (plus rapide), cadre, zoom, quantité par scan.",
-  "date": "2026-11-12",
-  "signature": "Xg1sXbXE1XZB+FjoUY5p/mAlpJMD4R8jjkJlYM00bLOouhGZpEAwZVpKFozNZ2Wg1xduHwPAQQEY/EmhB9AFAA=="
+  "version": "1.1.21",
+  "code": 23,
+  "fichier": "Gestock-Pro-Android-1.1.21.apk",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Android-1.1.21.apk",
+  "sha256": "d8d3d54f37196be01c0572f42bf1a105f3d1ceb7f40a6e11674c321538a36e68",
+  "taille": 36668172,
+  "notes": "Facture du fournisseur : la caméra s’ouvre (plus la galerie), plusieurs factures envoyées d’un coup, jusqu’à 10 pages.",
+  "date": "2026-11-16"
 }
