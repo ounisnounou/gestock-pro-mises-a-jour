@@ -6,5 +6,6 @@
   "sha256": "0fcb33e2c6e5a16dae3e1eb5ceeaef8846aa17a063786bb352695a7b810fa1aa",
   "taille": 36678532,
   "notes": "La caméra s’ouvre seulement quand on en a besoin (bouton 📷), se ferme avec ✕, en écrivant ou après 30 s sans code.",
-  "date": "2026-11-16"
+  "date": "2026-11-16",
+  "signature": "yvskIfOge27XQVwXHAuDy1JF4hWZjAwz1i90nUGUTGQPcPSdzVxpLgQST5tA+gadUDQ3r3rtofFW8uSD6Um1Dw=="
 }
