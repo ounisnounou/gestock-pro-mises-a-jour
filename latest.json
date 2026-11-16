@@ -1,10 +1,10 @@
 {
-  "version": "1.42.7",
-  "fichier": "Gestock-Pro-Setup-1.42.7.exe",
-  "taille": 85303353,
-  "sha256": "5c7afa9a5efd31f653a190306e718ac6d91c273b8971bffd7db5c2e1a9de58d3",
-  "date": "2026-11-12",
-  "notes": "1.42.7 : un prix d'achat 6, 12… fois le prix habituel est reconnu comme prix de pack (facture lue et réception manuelle).",
-  "signature": "/2qLHtkDpUEyt/50B4asSNDiABOFHfNZZ2TS94TE7Lt6PHvjxIBWYFAk1rd9ou6fx/jXFyRZmWODGO2LifjWDQ==",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.42.7.exe"
+  "version": "1.43.0",
+  "fichier": "Gestock-Pro-Setup-1.43.0.exe",
+  "taille": 85299226,
+  "sha256": "55bbb1f11ae9f55636f7f34fbb9b8c9388f9e3e83417af1cf42aa78c30205811",
+  "date": "2026-11-16",
+  "notes": "1.43.0 : factures envoyées par téléphone lues une par une, jusqu'à 10 pages ; application Android 1.1.21 (caméra, plusieurs factures d'un coup).",
+  "signature": "SuQQ5SUzARPwncz5l+JQz254qHtnj26BXfo0X/belANbicgC94BXnYig7A0ZZJtWeUM8UT+hmUTdMSOJ+vPrCQ==",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.43.0.exe"
 }
