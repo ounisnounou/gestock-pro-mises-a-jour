@@ -1,11 +1,10 @@
 {
-  "version": "1.1.21",
-  "code": 23,
-  "fichier": "Gestock-Pro-Android-1.1.21.apk",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Android-1.1.21.apk",
-  "sha256": "d8d3d54f37196be01c0572f42bf1a105f3d1ceb7f40a6e11674c321538a36e68",
-  "taille": 36668172,
-  "notes": "Facture du fournisseur : la caméra s’ouvre (plus la galerie), plusieurs factures envoyées d’un coup, jusqu’à 10 pages.",
-  "date": "2026-11-16",
-  "signature": "NcUXs61YMrosCPhDJaYOjp1y6oOWgYu3bk5khjNe0c9qJ/fpUrj3/+YEYE47h2d9jDvavSRuFTd9ARimIxmHAA=="
+  "version": "1.1.22",
+  "code": 24,
+  "fichier": "Gestock-Pro-Android-1.1.22.apk",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Android-1.1.22.apk",
+  "sha256": "69db80bc2d59ee23ab8b2ea2a80a1b989b1c209a8bbf823d1f3ba1e464691bf4",
+  "taille": 36669764,
+  "notes": "Suggestions de produits pendant la frappe du nom (aussi sans Wi-Fi).",
+  "date": "2026-11-16"
 }
