@@ -1,1 +1,1 @@
-{"version": "1.1.20", "code": 22, "notes": "Nouveau lecteur de code-barres Google ML Kit (plus rapide), cadre, zoom, quantité par scan."}
+{"version": "1.1.21", "code": 23, "notes": "Facture du fournisseur : la caméra s’ouvre (plus la galerie), plusieurs factures envoyées d’un coup, jusqu’à 10 pages."}
