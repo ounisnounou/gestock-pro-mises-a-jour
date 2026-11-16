@@ -1,10 +1,10 @@
 {
-  "version": "1.45.0",
-  "fichier": "Gestock-Pro-Setup-1.45.0.exe",
-  "taille": 85331718,
-  "sha256": "bf79abce01d154b7bae3790412a71561571dbfad28a9a7f27375e8db674e8b5a",
+  "version": "1.46.0",
+  "fichier": "Gestock-Pro-Setup-1.46.0.exe",
+  "taille": 85350403,
+  "sha256": "ce97961bce320725bba0c787986c1b5afdd9d60647706a916c84df80c90a77fb",
   "date": "2026-11-16",
-  "notes": "Réorganisation : 8 espaces avec onglets en haut, page Documents unique, recherche Ctrl+K, Réglages en une seule page avec recherche.",
-  "signature": "C6dQC5g3wVC5lNpbMlly/ulOFGpQqq4iXt1sg4HmwkJ/R6W88lM1YBBI9+9BM1GsHBLnTFo6LkNcFVSlgm5aAQ==",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.45.0.exe"
+  "notes": "Variantes : goût / couleur / taille, 2 dimensions (couleur × pointure), stock regroupé sous le modèle.",
+  "signature": "bPzh6++xFHskgr60KbL7SDoYK8jK21qsZUKgRX2+h7YgzC3yY+7gcXU7UkkHq1teO14x2Pgcvy0tzLHWPWiVBw==",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.46.0.exe"
 }
