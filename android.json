@@ -1,11 +1,10 @@
 {
-  "version": "1.1.23",
-  "code": 25,
-  "fichier": "Gestock-Pro-Android-1.1.23.apk",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Android-1.1.23.apk",
-  "sha256": "d3a8c96bfb1dbd3a4f97084abf954c311d5e841bed9029bb92def8f04c02e8f5",
-  "taille": 36675964,
-  "notes": "Nouvelle organisation : barre flottante Accueil · Stock · Vendre · Suivi · Profil, plus de menu ☰.",
-  "date": "2026-11-16",
-  "signature": "uMaIsyTMpDEIaajOyaJAdM+4lJ6lHSDO8Fi9MnbGyQZ5Xz+JHBhtD+fWgjtv30J3Jc1CARhCOB71iNhqyDxYDQ=="
+  "version": "1.1.24",
+  "code": 26,
+  "fichier": "Gestock-Pro-Android-1.1.24.apk",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Android-1.1.24.apk",
+  "sha256": "1b4e01458c9de61e9038cab2ab7261d7e9d897e4b2364e4516c8ba25677382d4",
+  "taille": 36675980,
+  "notes": "Vente : le bandeau du total ne cache plus le dernier produit du panier.",
+  "date": "2026-11-16"
 }
