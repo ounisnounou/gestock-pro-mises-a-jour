@@ -1,11 +1,10 @@
 {
-  "version": "1.1.24",
-  "code": 26,
-  "fichier": "Gestock-Pro-Android-1.1.24.apk",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Android-1.1.24.apk",
-  "sha256": "1b4e01458c9de61e9038cab2ab7261d7e9d897e4b2364e4516c8ba25677382d4",
-  "taille": 36675980,
-  "notes": "Vente : le bandeau du total ne cache plus le dernier produit du panier.",
-  "date": "2026-11-16",
-  "signature": "aecGjbX6rFeKXT6rZk1EZD6ukKNocik3vz3BQvfn4nG8uz5/pWAqy97oXIONiusEKZbGD82WvkfTnrc9zOkADA=="
+  "version": "1.1.25",
+  "code": 27,
+  "fichier": "Gestock-Pro-Android-1.1.25.apk",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Android-1.1.25.apk",
+  "sha256": "0fcb33e2c6e5a16dae3e1eb5ceeaef8846aa17a063786bb352695a7b810fa1aa",
+  "taille": 36678532,
+  "notes": "La caméra s’ouvre seulement quand on en a besoin (bouton 📷), se ferme avec ✕, en écrivant ou après 30 s sans code.",
+  "date": "2026-11-16"
 }
