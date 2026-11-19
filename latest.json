@@ -1,10 +1,10 @@
 {
-  "version": "1.48.0",
-  "fichier": "Gestock-Pro-Setup-1.48.0.exe",
-  "taille": 85317042,
-  "sha256": "9930806fa7a60ccccbb4266631af0db0cf65577357e3ede474c52c51c58d385c",
+  "version": "1.49.0",
+  "fichier": "Gestock-Pro-Setup-1.49.0.exe",
+  "taille": 85333519,
+  "sha256": "7bd1801c70e3fb3ecf72cc53b079585e75b68018c4da1cf468c36514ec4b77d8",
   "date": "2026-11-19",
-  "notes": "Caisse : retour par « Retourner la ligne » (rouge), étiquette personnalisable (QR, code, prix, éléments).",
-  "signature": "//Z/A/Wk6R+4ewwYU3Sysc7ow3Th4j08WxobOtaR1W1z5Dd1Tjso0YFoC5PA4Ug5OzWoJ0Y3FEcb7CSgd5f7Bw==",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.48.0.exe"
+  "notes": "Rendre l'argent au client (solde en sa faveur, bon d'achat ou avoir) avec reçu.",
+  "signature": "3P2CYf9z4rXsNjgb9QrH28ip5fj6o6lIyARAIoLxwyAcXxbjfjSRDDAHqhGxWFyJy+P08ucKFqzLWjPHY9XNCg==",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.49.0.exe"
 }
