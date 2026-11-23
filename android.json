@@ -6,5 +6,6 @@
   "sha256": "345283080beea1f2992b3af2e29d6f385510ee731b029dfb02672b3eb1e9c546",
   "taille": 36687288,
   "notes": "Licence du téléphone : correction (numéro et activation dans Profil).",
-  "date": "2026-11-23"
+  "date": "2026-11-23",
+  "signature": "t+BgbWYHiyoj8Ngoq6ZWwY1o5wjRoE1pHBZfL1KokRrL+cRlFkvquHoUnyiTD2EHxadL0U0mzX/7gK+u926vDg=="
 }
