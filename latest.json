@@ -1,10 +1,10 @@
 {
-  "version": "1.51.0",
-  "fichier": "Gestock-Pro-Setup-1.51.0.exe",
-  "taille": 85340917,
-  "sha256": "c7a3f8d95c30ee6cba192ffe8510741f2d3c35b3037fb881028557c6b6d046ed",
+  "version": "1.52.0",
+  "fichier": "Gestock-Pro-Setup-1.52.0.exe",
+  "taille": 85332331,
+  "sha256": "b7adccc228ffdaee65b471158802c909f746f8c681cda053bc9b357fcc131007",
   "date": "2026-11-23",
-  "notes": "Fiche produit : référence automatique (case Auto).",
-  "signature": "q5/rn5OLounvXYgRCSYxFRv54rVGaNxC/mfe++cEBf3TA4+26Med9JObttk2eOq5WF+9BVssrma26SAcDBcwDQ==",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.51.0.exe"
+  "notes": "Le code du caissier est demandé à chaque ouverture du programme.",
+  "signature": "y4DbU00rJGH3mwMKhyf+BFRQbmSigRIEqECXnmdcEo4sqmkPKQoYgP1WCWzaGFqzz303SGHKJPPPV06kbHf0Cg==",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.52.0.exe"
 }
