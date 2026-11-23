@@ -1,11 +1,10 @@
 {
-  "version": "1.1.25",
-  "code": 27,
-  "fichier": "Gestock-Pro-Android-1.1.25.apk",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Android-1.1.25.apk",
-  "sha256": "0fcb33e2c6e5a16dae3e1eb5ceeaef8846aa17a063786bb352695a7b810fa1aa",
-  "taille": 36678532,
-  "notes": "La caméra s’ouvre seulement quand on en a besoin (bouton 📷), se ferme avec ✕, en écrivant ou après 30 s sans code.",
-  "date": "2026-11-16",
-  "signature": "yvskIfOge27XQVwXHAuDy1JF4hWZjAwz1i90nUGUTGQPcPSdzVxpLgQST5tA+gadUDQ3r3rtofFW8uSD6Um1Dw=="
+  "version": "1.1.26",
+  "code": 28,
+  "fichier": "Gestock-Pro-Android-1.1.26.apk",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Android-1.1.26.apk",
+  "sha256": "45700cd6079d9c66e898c4ace68d70d2e856ca9cd1736d7c34c06f83b419844e",
+  "taille": 36687160,
+  "notes": "Licence du téléphone : essai de 7 jours, puis activation par code (Profil › Licence de ce téléphone).",
+  "date": "2026-11-23"
 }
