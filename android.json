@@ -6,5 +6,6 @@
   "sha256": "549605fb2c2878ba07cb4855d6374eddc333d72b3ae9c632c854422bfa5eec75",
   "taille": 36697798,
   "notes": "Licence : QR code du numéro du téléphone, activation en scannant le QR du code.",
-  "date": "2026-11-23"
+  "date": "2026-11-23",
+  "signature": "o7GZkjx0aYuvwpuUMY5r5WGxvXUg1T5xIAN1wkSjjS3q8EmDuuA4b54ZO2YHiCiCtsXGgmuwjf2bmHAZ2Y47Aw=="
 }
