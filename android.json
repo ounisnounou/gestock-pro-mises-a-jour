@@ -1,11 +1,10 @@
 {
-  "version": "1.1.26",
-  "code": 28,
-  "fichier": "Gestock-Pro-Android-1.1.26.apk",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Android-1.1.26.apk",
-  "sha256": "45700cd6079d9c66e898c4ace68d70d2e856ca9cd1736d7c34c06f83b419844e",
-  "taille": 36687160,
-  "notes": "Licence du téléphone : essai de 7 jours, puis activation par code (Profil › Licence de ce téléphone).",
-  "date": "2026-11-23",
-  "signature": "0E2QM1A2urk04RPztduQXejq10/4iEQXJKxhpd8jwZWCS2lMTtFzeLR2Vk88BiT5CK0Q5oSE2rOY9wNMF3zrDg=="
+  "version": "1.1.27",
+  "code": 29,
+  "fichier": "Gestock-Pro-Android-1.1.27.apk",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Android-1.1.27.apk",
+  "sha256": "345283080beea1f2992b3af2e29d6f385510ee731b029dfb02672b3eb1e9c546",
+  "taille": 36687288,
+  "notes": "Licence du téléphone : correction (numéro et activation dans Profil).",
+  "date": "2026-11-23"
 }
