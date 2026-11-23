@@ -6,5 +6,6 @@
   "sha256": "45700cd6079d9c66e898c4ace68d70d2e856ca9cd1736d7c34c06f83b419844e",
   "taille": 36687160,
   "notes": "Licence du téléphone : essai de 7 jours, puis activation par code (Profil › Licence de ce téléphone).",
-  "date": "2026-11-23"
+  "date": "2026-11-23",
+  "signature": "0E2QM1A2urk04RPztduQXejq10/4iEQXJKxhpd8jwZWCS2lMTtFzeLR2Vk88BiT5CK0Q5oSE2rOY9wNMF3zrDg=="
 }
