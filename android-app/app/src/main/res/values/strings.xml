@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Gestock Licences</string>
+    <string name="title_activity_main">Gestock Licences</string>
+    <string name="package_name">dz.smailshop.gestock.licences</string>
+    <string name="custom_url_scheme">dz.smailshop.gestock.licences</string>
+</resources>

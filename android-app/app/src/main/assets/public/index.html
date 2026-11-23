@@ -1,0 +1,37 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Gestock Licences</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:Roboto,"Segoe UI",Arial,"Noto Sans Arabic",sans-serif;background:#eef3f1;color:#1d2b27;padding:env(safe-area-inset-top) 0 env(safe-area-inset-bottom)}
+.e{display:none;padding:16px}.e.on{display:block}
+.c{background:#fff;border:1px solid #d6e1dd;border-radius:16px;padding:16px;margin-bottom:14px}
+.logo{width:60px;height:60px;border-radius:16px;background:#0f6b5c;color:#fff;display:grid;place-items:center;font-size:30px;margin:30px auto 10px}
+h1{text-align:center;font-size:22px;margin:4px 0}.ar{direction:rtl;color:#5d6e69;font-size:13.5px;text-align:center;margin:2px 0 14px}
+label{display:block;font-size:13px;color:#5d6e69;margin:12px 0 5px}
+input,textarea{width:100%;border:1px solid #c8d6d1;border-radius:11px;padding:12px;font-size:16px;font-family:inherit;background:#fff}
+.id{font-family:monospace;letter-spacing:1px;text-transform:uppercase}
+.b{display:block;width:100%;border:1px solid #0f6b5c;background:#fff;color:#0f6b5c;border-radius:12px;padding:13px;font-size:16px;font-weight:700;margin-top:12px}
+.b.p{background:#0f6b5c;color:#fff}.row{display:flex;gap:8px}.row .b{flex:1}
+.err{color:#b3261e;min-height:20px;margin-top:8px;font-size:14px}
+.ok{background:#e3f4ea;border-radius:12px;padding:12px;margin-top:12px;display:none}.ok.on{display:block}
+.ok textarea{font-family:monospace;font-size:12px;height:96px}
+.it{border-bottom:1px solid #e3ebe8;padding:10px 0;font-size:14px}.it b{font-size:15px}.it .m{font-family:monospace;font-size:12.5px;color:#41524d}
+.it .row{margin-top:6px}.it .b{padding:7px;font-size:13px;margin:0}
+.tab{display:flex;gap:6px;margin-bottom:12px}.tab button{flex:1;border:0;border-radius:10px;padding:10px;font-size:15px;font-weight:600;background:#dde8e4;color:#1d2b27}.tab .on{background:#0f6b5c;color:#fff}
+.hd{display:flex;align-items:center;gap:10px;margin-bottom:12px}.hd .sp{flex:1}.hd .b{width:auto;margin:0;padding:8px 12px;font-size:13px}
+</style></head><body>
+<div id="e-inst" class="e"><div class="logo">🔑</div><h1>Gestock Licences</h1><div class="ar">أول استعمال: ضع رمزاً سرياً واختر ملف المفتاح gestock-cle.pem</div>
+<div class="c"><label>Code secret (6+) · الرمز السري</label><input id="i-s1" type="password"><label>Répéter · أعد كتابته</label><input id="i-s2" type="password">
+<label>Fichier de la clé (gestock-cle.pem) · ملف المفتاح</label><input id="i-f" type="file">
+<button class="b p" id="b-inst">Installer la clé</button><div class="err" id="i-err"></div></div></div>
+<div id="e-ouv" class="e"><div class="logo">🔑</div><h1>Gestock Licences</h1><div class="ar">اكتب رمزك السري</div>
+<div class="c"><input id="o-s" type="password" placeholder="Code secret"><button class="b p" id="b-ouv">Ouvrir</button><div class="err" id="o-err"></div></div></div>
+<div id="e-main" class="e">
+<div class="hd"><b style="font-size:18px">🔑 Gestock Licences</b><span class="sp"></span><button class="b" id="b-lock">Verrouiller</button></div>
+<div class="tab"><button id="t1" class="on">Nouveau code</button><button id="t2">Appareils</button></div>
+<div id="p1" class="c"><label>Numéro de l’appareil · رقم الجهاز</label><input id="c-m" class="id" placeholder="GSP-XXXX-XXXX-XXXX" autocapitalize="characters">
+<label>Nom du magasin · اسم المحل</label><input id="c-n"><label>Téléphone (WhatsApp) · الهاتف</label><input id="c-t" inputmode="tel"><label>Note · ملاحظة</label><input id="c-x">
+<button class="b p" id="b-creer">Créer le code</button><div class="err" id="c-err"></div>
+<div class="ok" id="c-ok"><b>✓ Code créé</b> <span id="c-pour"></span><textarea id="c-code" readonly></textarea><div class="row"><button class="b p" id="b-cp">Copier</button><button class="b" id="b-wa">WhatsApp</button></div></div></div>
+<div id="p2" class="c" style="display:none"><input id="l-q" placeholder="Chercher…"><div id="l"></div></div>
+</div>
+<script src="nacl.min.js"></script><script src="app.js"></script></body></html>

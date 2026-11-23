@@ -1,0 +1,77 @@
+name: Licences Android
+on:
+  push:
+    branches: [licences]
+permissions:
+  contents: write
+concurrency: licences
+jobs:
+  apk:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Modules Capacitor
+        run: npm install --no-audit --no-fund
+      - name: Clé de signature (secret ANDROID_KEYSTORE)
+        id: cle
+        env:
+          CLE: ${{ secrets.ANDROID_KEYSTORE }}
+        run: |
+          if [ -z "$CLE" ]; then echo "signe=0" >> "$GITHUB_OUTPUT"; echo "Secret ANDROID_KEYSTORE absent : APK non signé, non publié."; exit 0; fi
+          PASS=$(printf '%s' "${CLE%%|*}" | tr -d ' \r\n\t')
+          echo "::add-mask::$PASS"
+          printf '%s' "${CLE#*|}" | tr -d ' \r\n\t' | base64 -d > "$RUNNER_TEMP/gestock.jks" || true
+          echo "Clé : $(stat -c %s "$RUNNER_TEMP/gestock.jks") octets, empreinte $(sha256sum "$RUNNER_TEMP/gestock.jks" | cut -c1-16) (attendu : 1014 octets, 77b3984469b2faaf)" | tee -a build.log
+          if ! keytool -list -keystore "$RUNNER_TEMP/gestock.jks" -storepass "$PASS" -alias gestock > /dev/null 2>&1; then
+            echo "::error::Le secret ANDROID_KEYSTORE est incomplet ou mal collé (texte coupé ?). Recollez tout le contenu du fichier ANDROID_KEYSTORE-secret.txt."; echo "CLE INVALIDE" >> build.log
+            exit 1
+          fi
+          echo "GESTOCK_KS_FILE=$RUNNER_TEMP/gestock.jks" >> "$GITHUB_ENV"
+          echo "GESTOCK_KS_PASS=$PASS" >> "$GITHUB_ENV"
+          echo "signe=1" >> "$GITHUB_OUTPUT"
+      - name: Gradle (si GitHub ne répond pas, miroir vérifié par l'empreinte officielle)
+        run: |
+          P=android-app/gradle/wrapper/gradle-wrapper.properties
+          URL=$(grep '^distributionUrl=' "$P" | cut -d= -f2- | tr -d '\\')
+          NOM=$(basename "$URL")
+          SHA=$(curl -fsSL --retry 5 --retry-delay 5 "$URL.sha256" | tr -d ' \r\n' || true)
+          echo "Gradle $NOM, empreinte : ${SHA:-inconnue}" | tee -a build.log
+          if [ -z "$SHA" ]; then echo "Pas d'empreinte officielle : téléchargement normal par le wrapper." | tee -a build.log; exit 0; fi
+          for u in "$URL" "https://mirrors.cloud.tencent.com/gradle/$NOM" "https://mirrors.huaweicloud.com/gradle/$NOM"; do
+            rm -f "$RUNNER_TEMP/$NOM"
+            if curl -fL --retry 3 --retry-delay 10 -o "$RUNNER_TEMP/$NOM" "$u" && echo "$SHA  $RUNNER_TEMP/$NOM" | sha256sum -c -; then
+              sed -i "s#^distributionUrl=.*#distributionUrl=file\\://$RUNNER_TEMP/$NOM#" "$P"
+              echo "Gradle téléchargé depuis $u" | tee -a build.log
+              exit 0
+            fi
+            echo "Échec : $u" | tee -a build.log
+          done
+      - name: Construire l'APK
+        run: |
+          set -o pipefail
+          cd android-app
+          chmod +x gradlew
+          ./gradlew assembleRelease --no-daemon --stacktrace 2>&1 | tee -a ../build.log
+      - name: Publier l'APK (branche licences-apk)
+        if: steps.cle.outputs.signe == '1'
+        run: |
+          mkdir -p /tmp/apk && cp android-app/app/build/outputs/apk/release/app-release.apk /tmp/apk/Gestock-Licences.apk
+          cd /tmp/apk && git init -q -b licences-apk && git config user.name "Gestock Build" && git config user.email "build@users.noreply.github.com"
+          git add -A && git commit -q -m "Gestock Licences APK"
+          git push -q -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" HEAD:licences-apk
+      - name: Journal de construction
+        if: always()
+        run: |
+          git config --global user.name "Gestock Build"; git config --global user.email "build@users.noreply.github.com"
+          mkdir -p /tmp/journal && (tail -c 400000 build.log > /tmp/journal/build.log 2>/dev/null || echo "pas de journal" > /tmp/journal/build.log)
+          echo "${{ job.status }} ${{ github.sha }}" > /tmp/journal/statut.txt
+          cd /tmp/journal && git init -q -b licences-logs && git add -A && git commit -q -m "Journal ${{ github.sha }}"
+          git push -q -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" HEAD:licences-logs

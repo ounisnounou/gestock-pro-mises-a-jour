@@ -1,0 +1,8 @@
+{
+	"appId": "dz.smailshop.gestock.licences",
+	"appName": "Gestock Licences",
+	"webDir": "www",
+	"android": {
+		"allowMixedContent": false
+	}
+}
