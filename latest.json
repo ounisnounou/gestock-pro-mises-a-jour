@@ -1,10 +1,10 @@
 {
-  "version": "1.52.0",
-  "fichier": "Gestock-Pro-Setup-1.52.0.exe",
-  "taille": 85332331,
-  "sha256": "b7adccc228ffdaee65b471158802c909f746f8c681cda053bc9b357fcc131007",
+  "version": "1.52.1",
+  "fichier": "Gestock-Pro-Setup-1.52.1.exe",
+  "taille": 85324324,
+  "sha256": "ab16070a2538b778256ee0bec1520c861c2520d8426f5a40dee39b155f5a5e0d",
   "date": "2026-11-23",
-  "notes": "Le code du caissier est demandé à chaque ouverture du programme.",
-  "signature": "y4DbU00rJGH3mwMKhyf+BFRQbmSigRIEqECXnmdcEo4sqmkPKQoYgP1WCWzaGFqzz303SGHKJPPPV06kbHf0Cg==",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.52.0.exe"
+  "notes": "À l'ouverture : écran « Qui travaille sur la caisse ? » (choix de l'utilisateur + code PIN).",
+  "signature": "UzUyLMbcPixNa1KhJ/NHRYZMvg6vQKcR7c72WC6Ioa0iKRgC6CjLQsY58N3yHI1fkJxiJTnz5Jboa518zNnFCA==",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.52.1.exe"
 }
