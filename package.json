@@ -1,2 +1,11 @@
-{ "name": "gestock-licences-android", "private": true, "version": "1.0.0",
-  "dependencies": { "@capacitor/android": "8.6.0", "@capacitor/core": "8.6.0", "@capacitor/cli": "8.6.0" } }
+{
+  "name": "gestock-licences-android",
+  "private": true,
+  "version": "1.1.0",
+  "dependencies": {
+    "@capacitor/android": "8.6.0",
+    "@capacitor/core": "8.6.0",
+    "@capacitor/cli": "8.6.0",
+    "@capacitor-mlkit/barcode-scanning": "8.2.2"
+  }
+}

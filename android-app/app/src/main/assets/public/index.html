@@ -26,12 +26,16 @@ input,textarea{width:100%;border:1px solid #c8d6d1;border-radius:11px;padding:12
 <div id="e-ouv" class="e"><div class="logo">🔑</div><h1>Gestock Licences</h1><div class="ar">اكتب رمزك السري</div>
 <div class="c"><input id="o-s" type="password" placeholder="Code secret"><button class="b p" id="b-ouv">Ouvrir</button><div class="err" id="o-err"></div></div></div>
 <div id="e-main" class="e">
-<div class="hd"><b style="font-size:18px">🔑 Gestock Licences</b><span class="sp"></span><button class="b" id="b-lock">Verrouiller</button></div>
+<div class="hd"><b style="font-size:18px">🔑 Gestock Licences</b><span class="sp"></span><button class="b" id="b-sync">⟳</button><button class="b" id="b-gh">GitHub</button><button class="b" id="b-lock">🔒</button></div>
+<div id="s-etat" style="font-size:12.5px;color:#5d6e69;margin:-6px 0 10px"></div>
 <div class="tab"><button id="t1" class="on">Nouveau code</button><button id="t2">Appareils</button></div>
-<div id="p1" class="c"><label>Numéro de l’appareil · رقم الجهاز</label><input id="c-m" class="id" placeholder="GSP-XXXX-XXXX-XXXX" autocapitalize="characters">
+<div id="p1" class="c"><label>Numéro de l’appareil · رقم الجهاز</label><div class="row" style="gap:8px"><input id="c-m" class="id" placeholder="GSP-XXXX-XXXX-XXXX" autocapitalize="characters" style="flex:1"><button class="b p" id="b-scan" style="flex:none;width:56px;margin:0;padding:0">📷</button></div>
 <label>Nom du magasin · اسم المحل</label><input id="c-n"><label>Téléphone (WhatsApp) · الهاتف</label><input id="c-t" inputmode="tel"><label>Note · ملاحظة</label><input id="c-x">
 <button class="b p" id="b-creer">Créer le code</button><div class="err" id="c-err"></div>
-<div class="ok" id="c-ok"><b>✓ Code créé</b> <span id="c-pour"></span><textarea id="c-code" readonly></textarea><div class="row"><button class="b p" id="b-cp">Copier</button><button class="b" id="b-wa">WhatsApp</button></div></div></div>
+<div class="ok" id="c-ok"><b>✓ Code créé</b> <span id="c-pour"></span><textarea id="c-code" readonly></textarea><div class="row"><button class="b p" id="b-cp">Copier</button><button class="b" id="b-wa">WhatsApp</button></div>
+<div style="text-align:center;margin-top:12px"><div id="c-qr" style="display:inline-block;background:#fff;padding:8px;border-radius:8px"></div><div style="font-size:12.5px;color:#41524d">Le client scanne ce QR (Gestock Pro › Profil › Licence)</div></div></div></div>
 <div id="p2" class="c" style="display:none"><input id="l-q" placeholder="Chercher…"><div id="l"></div></div>
 </div>
-<script src="nacl.min.js"></script><script src="app.js"></script></body></html>
+<div id="e-gh" class="e"><div class="c"><b>Synchronisation GitHub · المزامنة</b><p style="font-size:14px;color:#41524d">Liste chiffrée dans le dépôt privé, partagée avec le PC.</p>
+<label>Jeton GitHub (github_pat_…)</label><input id="g-j" type="password"><button class="b p" id="b-g-ok">Enregistrer et synchroniser</button><button class="b" id="b-g-x">Retirer le jeton</button><button class="b" id="b-g-r">Retour</button><div class="err" id="g-err"></div></div></div>
+<script src="qrcode.js"></script><script src="nacl.min.js"></script><script src="app.js"></script></body></html>
