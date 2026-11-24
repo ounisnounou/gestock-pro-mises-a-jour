@@ -1,11 +1,10 @@
 {
-  "version": "1.1.28",
-  "code": 30,
-  "fichier": "Gestock-Pro-Android-1.1.28.apk",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Android-1.1.28.apk",
-  "sha256": "549605fb2c2878ba07cb4855d6374eddc333d72b3ae9c632c854422bfa5eec75",
-  "taille": 36697798,
-  "notes": "Licence : QR code du numéro du téléphone, activation en scannant le QR du code.",
-  "date": "2026-11-23",
-  "signature": "o7GZkjx0aYuvwpuUMY5r5WGxvXUg1T5xIAN1wkSjjS3q8EmDuuA4b54ZO2YHiCiCtsXGgmuwjf2bmHAZ2Y47Aw=="
+  "version": "1.1.29",
+  "code": 31,
+  "fichier": "Gestock-Pro-Android-1.1.29.apk",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Android-1.1.29.apk",
+  "sha256": "e352005ed962ece518af2846db5a1506ac737e9efd4f9f218f0bb8c30f8aee2d",
+  "taille": 36698270,
+  "notes": "Barre du bas semi-transparente (verre) et mot « Vendre » plus grand.",
+  "date": "2026-11-24"
 }
