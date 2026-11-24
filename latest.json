@@ -1,10 +1,10 @@
 {
-  "version": "1.55.0",
-  "fichier": "Gestock-Pro-Setup-1.55.0.exe",
-  "taille": 85383678,
-  "sha256": "14e177d578db1307fd95c09932f3e9738c999b2a32ec8acb0c124620f49b0b61",
-  "date": "2026-11-23",
-  "notes": "Réception : suggestions dès la première lettre, prix de vente modifiable avec la marge.",
-  "signature": "zt9BmJfcxJ5WF9QVuEZyxZcHqdJaVULc+ol5yJGYQwZ0IqAVjqIAwLQwFhS2A8c4Z6ftJ1tFG+H6Yo7tX+nWBw==",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.55.0.exe"
+  "version": "1.56.0",
+  "fichier": "Gestock-Pro-Setup-1.56.0.exe",
+  "taille": 85320904,
+  "sha256": "5aaae2a84001b49c5c0f42b13325348b6902046a0ed74ac423705be2e0e7bc14",
+  "date": "2026-11-24",
+  "notes": "Pesée — étiquette : peser sur une balance simple et imprimer une étiquette avec code-barres (poids ou montant), lue par la caisse. Modèles d'étiquettes de pesée personnalisables.",
+  "signature": "n/P7IkY/UwgRE5ZWtvmiCd0f6nZDLmouB5ZbEdz0pvzM96RcC3Ot8TYcutoJREbrPU4bxeZPM0rHzl95gdTJAg==",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.56.0.exe"
 }
