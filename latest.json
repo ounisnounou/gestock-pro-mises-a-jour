@@ -1,10 +1,10 @@
 {
-  "version": "1.56.3",
-  "fichier": "Gestock-Pro-Setup-1.56.3.exe",
-  "taille": 85334950,
-  "sha256": "8c382d1afe52695854a1cd45d78e2b8a7b9f5a8e837470b5343b6d0c523ebc7b",
-  "date": "2026-11-24",
-  "notes": "Réception : modifier le produit d’une ligne (✎ ou double-clic).",
-  "signature": "bpEI9Yc+Cst52fMbl9+E8gGqI4kBh7i/RuM+oYvUqeKm/myGLr9+e+p4ECWHQoB7s1y8VupUANpQ6WYhkWFdCQ==",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.56.3.exe"
+  "version": "1.56.4",
+  "fichier": "Gestock-Pro-Setup-1.56.4.exe",
+  "taille": 85328987,
+  "sha256": "3cf37641e679efb438cc6d113a33a0046b2029bf2c4298c57ffe79fcf1fbeb5b",
+  "date": "2026-11-26",
+  "notes": "Caisse : les touches + et - marchent partout sur la ligne choisie.",
+  "signature": "shZQCOKxAzYDkeouBKPAlJLINJ7p1PC9Yt9C4+1LpQlnijJMgdS2j0+FHXtDhYKhqi6JCVLghn//M5qQ4+MyDA==",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.56.4.exe"
 }
