@@ -1,10 +1,10 @@
 {
-  "version": "1.56.5",
-  "fichier": "Gestock-Pro-Setup-1.56.5.exe",
-  "taille": 85352529,
-  "sha256": "77540c7e58bb5a6511641af1afd1114cd8e727e01fb75bc07d947e99edc4cbf4",
+  "version": "1.56.6",
+  "fichier": "Gestock-Pro-Setup-1.56.6.exe",
+  "taille": 85340239,
+  "sha256": "82676f04a7d8769bc142ce2dffa210345a3e9b9d233cdfd6a771cf5f47b70c92",
   "date": "2026-11-26",
-  "notes": "Caisse : champ code-barres plus simple (boutons Code barre / Désignation retirés).",
-  "signature": "BHIdjdEapnSHlfIsZmPFG9kn47UeCK4jpZIrV7F+7fTp+e5TAmuRB+e643jngD5/GleZSnHdb72Fe5udJtF1DQ==",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.56.5.exe"
+  "notes": "Caisse : boutons du pavé plus lisibles (icône à gauche, rien n'est coupé).",
+  "signature": "DVETorI3/Cr0Hj2rS3z1vP0bZncrOu9ms1NUNGw4S4lDgrUAXecNYtZaSxszbfShvouWvW9ypMAEcEHVghQ2Dw==",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.56.6.exe"
 }
