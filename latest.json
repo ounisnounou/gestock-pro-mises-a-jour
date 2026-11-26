@@ -1,10 +1,10 @@
 {
-  "version": "1.56.4",
-  "fichier": "Gestock-Pro-Setup-1.56.4.exe",
-  "taille": 85328987,
-  "sha256": "3cf37641e679efb438cc6d113a33a0046b2029bf2c4298c57ffe79fcf1fbeb5b",
+  "version": "1.56.5",
+  "fichier": "Gestock-Pro-Setup-1.56.5.exe",
+  "taille": 85352529,
+  "sha256": "77540c7e58bb5a6511641af1afd1114cd8e727e01fb75bc07d947e99edc4cbf4",
   "date": "2026-11-26",
-  "notes": "Caisse : les touches + et - marchent partout sur la ligne choisie.",
-  "signature": "shZQCOKxAzYDkeouBKPAlJLINJ7p1PC9Yt9C4+1LpQlnijJMgdS2j0+FHXtDhYKhqi6JCVLghn//M5qQ4+MyDA==",
-  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.56.4.exe"
+  "notes": "Caisse : champ code-barres plus simple (boutons Code barre / Désignation retirés).",
+  "signature": "BHIdjdEapnSHlfIsZmPFG9kn47UeCK4jpZIrV7F+7fTp+e5TAmuRB+e643jngD5/GleZSnHdb72Fe5udJtF1DQ==",
+  "url": "https://raw.githubusercontent.com/ounisnounou/gestock-pro-mises-a-jour/main/versions/Gestock-Pro-Setup-1.56.5.exe"
 }
